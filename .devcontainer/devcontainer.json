@@ -1,0 +1,28 @@
+{
+    "name": "Capstone Project",
+    "build": {
+      "dockerfile": "Dockerfile"
+    },
+    "forwardPorts": [3000],
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.defaultProfile.linux": "zsh",
+                "terminal.integrated.profiles.linux": {
+                    "zsh": {
+                        "path": "zsh"
+                      }
+                }
+            },
+            "extensions": [
+                "ms-azuretools.vscode-docker",
+                "esbenp.prettier-vscode",
+                "bradlc.vscode-tailwindcss",
+                "eamodio.gitlens"
+            ]
+        }
+    },
+    "postCreateCommand": "yarn install",
+    "remoteUser": "root"
+  }
+  
