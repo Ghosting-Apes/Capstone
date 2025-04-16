@@ -1,0 +1,6 @@
+.element {
+    &:hover {
+        background-color: lightgray;
+        transition: 0.5s;
+    }
+}

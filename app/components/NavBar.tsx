@@ -1,6 +1,6 @@
 "use client"
 import { SegmentedControl } from '@mantine/core';
-import classes from './GradientSegmentedControl.module.css';
+import classes from './styles/GradientSegmentedControl.module.css';
 import { usePathname, useRouter } from 'next/navigation';
 
 
