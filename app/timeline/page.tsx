@@ -6,7 +6,6 @@ import { Chrono } from "react-chrono";
 export default function Time() {
   return (
     <div className="flex flex-col w-full h-full justify-center items-center">
-      <NavBar />
       <Chrono items={[
         {
           title: "November 1650",
