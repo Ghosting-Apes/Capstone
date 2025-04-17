@@ -37,20 +37,6 @@ export default function Time() {
         }
       ]}
       mode="VERTICAL_ALTERNATING" />
-      {/* <Timeline active={1} bulletSize={24} lineWidth={2} align="left">
-        <TimelineItem title="First Event">
-            <Text color="dimmed" size="sm">This event happened a long time ago!</Text>
-        </TimelineItem>
-        <TimelineItem title="Second Event">
-            <Text color="dimmed" size="sm">This event happened closer to our time..</Text>
-        </TimelineItem>
-        <TimelineItem title="Third Event">
-            <Text color="dimmed" size="sm">This event was pretty recent...</Text>
-        </TimelineItem>
-        <TimelineItem title="Fourth Event">
-            <Text color="dimmed" size="sm">This happened today!</Text>
-        </TimelineItem>
-      </Timeline> */}
     </div>
   );
 }

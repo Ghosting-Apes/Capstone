@@ -2,12 +2,12 @@ import { Card, Image, Text, Button, Group } from '@mantine/core';
 
 import styles from "./styles/CardHover.module.css";
 
-export default function PeopleCard(props: any) {
+export default function PersonCard(props: any) {
     let {name, desc, imgURL} = props;
     return (
-        <div className="flex ">
+        <div className="flex pb-10">
             <Card 
-            shadow='md' 
+            shadow='lg' 
             w={300}
             component='a'
             href={"people/" + name.split(' ').join('-') + "/info"}

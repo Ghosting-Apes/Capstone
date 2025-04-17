@@ -3,8 +3,8 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <div className="flex flex-col pt-2 w-full h-full justify-center items-center">
-      <div className="flex  w-190">
+    <div className="flex flex-col pt-2 w-full justify-center items-center">
+      <div className="flex w-190">
         <p>This website was initially made for my Interdisciplinary Capstone class. My original idea was to research and compare the histories of Middle Eastern medicine and Japanese medicine, 
         as my primary major is in medical sciences, and I have studied and pursued minors/certificates in both Arabic and Japanese language and culture. 
         As I was researching this topic however, I started to learn about many different kinds of traditional medicine like traditional Chinese medicine and ancient Greek medicine, 
