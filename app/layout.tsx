@@ -38,7 +38,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased border-2 h-full`}
       >
-        <MantineProvider theme={theme}>
+        <MantineProvider theme={theme} defaultColorScheme="light">
           <div className="w-full min-w-[1200px] size-min-750 flex p-5">
             <div className="flex flex-col border-2 w-full text-center justify-center pl-[5%]">
               <h1 className="font-bold text-5xl pt-10 pb-10">The Encyclopedia of World Medical History</h1>
