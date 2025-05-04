@@ -19,36 +19,70 @@ export interface TimePeriod {
   
 export const people: Person[] = [
   {
-    name: "Julius Caesar",
-    desc: "A mildly important historical figure...",
+    name: "Ibn Sina",
+    desc: `The Father of Modern Medicine 
+    \n Ibn Sina is one of the most influential doctors from the 11th century.`,
     data: {
-      age: 100,
-      birthday: "November 4th, 2002",
-      yearRange: {start: 100, end: 2025},
-      origin: "Rome, Italy"
+      age: 56,
+      birthday: "c.980 CE",
+      yearRange: {start: 980, end: 1037},
+      origin: "Mediterranean/Middle East"
     },
-    url: "https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs="
+    url: "https://i0.wp.com/oxsci.org/wp-content/uploads/2019/11/IbnSina_2.png?w=1336&ssl=1"
   },
   {
-    name: "Adku Atwan",
-    desc: "Sensei :teacher-emoji:",
+    name: "Imhotep",
+    desc: "The Deified Egyptian Architect and Physician",
     data: {
       age: 0,
-      birthday: "",
-      yearRange: {start: 2003, end: 2025},
-      origin: ""
+      birthday: "c. 27th century BCE",
+      yearRange: {start: -2700, end: -2601},
+      origin: "Mediterranean/Middle East"
     },
-    url: "https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs="
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Imhotep.svg/250px-Imhotep.svg.png"
   },
   {
-    name: 'Bashar "Wise Dodge" Rasras',
-    desc: "mid asf",
+    name: 'Asclepios',
+    desc: "Greek God of Medicine",
     data: {
       age: 0,
-      birthday: "",
-      yearRange: {start: 2006, end: 2025},
-      origin: ""
+      birthday: "N/A",
+      yearRange: {start: -1200, end: 2025},
+      origin: "Mediterranean/Middle East"
     },
-    url: "https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs="
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Asklepios_-_Epidauros.jpg/250px-Asklepios_-_Epidauros.jpg"
+  },
+  {
+    name: 'Hippocrates of Kos',
+    desc: "The Father of Medicine",
+    data: {
+      age: 90,
+      birthday: "c. 460 BCE",
+      yearRange: {start: -460, end: -370},
+      origin: "Mediterranean/Middle East"
+    },
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hippocrates.jpg/250px-Hippocrates.jpg"
+  },
+  {
+    name: 'Cladius Galen',
+    desc: "The Roman Philospoher and Physician",
+    data: {
+      age: 87,
+      birthday: "c. 129 CE",
+      yearRange: {start: 129, end: 216},
+      origin: "Mediterranean/Middle East"
+    },
+    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Claudius_Galenus_%281906%29_-_Veloso_Salgado.png/250px-Claudius_Galenus_%281906%29_-_Veloso_Salgado.png"
+  },
+  {
+    name: 'Kajiwara Shōzen',
+    desc: "Buddhist Priest and Clinical Physician",
+    data: {
+      age: 72,
+      birthday: "1265 CE",
+      yearRange: {start: 1265, end: 1337},
+      origin: "East Asia"
+    },
+    url: "https://muse.jhu.edu/book/1740/image/front_cover?format=largecover"
   },
 ]
