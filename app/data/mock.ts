@@ -8,6 +8,7 @@ interface Metadata {
 export interface Person {
   name: string,
   data: Metadata,
+  caption?: string,
   desc: string,
   url: string,
 }
@@ -102,40 +103,41 @@ export const places: Places[] = [
 export const people: Person[] = [
   {
     name: "Ibn Sina",
-    desc: `The Father of Modern Medicine 
-    \n Ibn Sina is one of the most influential doctors from the 11th century. He was a Muslim born in the Samanid Empire (Persia, modern day Uzbekistan)
-    who memorized the Quran before becoming 10 years old. Following one of the teachings of the Quran which was to gain knowledge, started studying medicine
-    at 16 years old and became a court physician at 18 years old. His studies and practice led him to writing his most influential work ***Qanun fil Tib***,
-    a collection of 5 volumes, containing all medical and surgical knowledge known during his time. This was not the only work he had written as he authored 450
-    books including the also influential ***Shefa***. His works were translated and used by medical universities worldwide up until the 17th century. 
-    Ibn Sina learned from the works of earlier physicians like ***Hippocrates***, ***Galen***, and ***Al-Razi***, and furthered medical knowledge. 
-    
-    Ibn Sina was one of the first physicians to link mental health and disease. He believed that exhaustian, drug abuse, sexual devations, and congenital factors, 
-    among other things were causes of mental disorders. He believed there was a link between the body and soul and recommended the use of physical exercise and musical therapy 
-    in addition to drugs as a treatment for mental disorders. One of his famous experiments utilized 2 lambs being cared for similarly with the exception of one lamb
-    facing a wolf. The lamb facing the wolf died before the lamb that could not see the wolf, which helped demonstrate the negative effects of stress on health.
-    Ibn Sina further categorized mental disorders into 11 categories, which were sleeping disorders, transient brain dysfunctions,
-    delirium, mental retardation, dementia, corruption of imagination, "dog's disease" (mania), melancholy, qhutrub, love disorder, and uterine suppression. He further described 
-    5 forms of melancholy and 2 forms of mania. 
-    
-    Ibn Sina also made strides towards furthering anatomical knowledge. He was the first physician to find the stomach in the left side of the abdominal cavity. He was also the first to prove
-    that the clavicle (collarbone) was only found in humans. He also specified the position of the heart to the left side of the chest, unlike Galen who assumed it to be
-    central, but also accuratley describe the function of the aortic and atrioventricular valves of the heart. Ibn Sina further described the spinal cord to be a continuation of the brain and contained sensory and motor fibers. He was also able to accuratelty distinguish the functions of
-    smooth and skeletal muscles. He was also able to describe the muscles of the eye and to determine the presence of "fertile" and "infertile" fluid from the testicles. He also is also considered
-    one of the founders of pediatrics as he noted differences in peculiarities of the child's body compared to that of adults. 
-    
-    Ibn Sina also contributed to the field of surgery. He routinely removed bullets, stones, and turmors. He also invented catheters with rounded tips and side holes from animal skin, 
-    which allowed for gentle procedures for his patients facing urinary disturbances. He was also the first to describe the antiseptic properties of alcohol, which became commonly used in
-    medieval Europe and is still a common antiseptic used today.
-    
-    Infectiology was yet another field that Ibn Sina contributed to. He described the existance of "small-disease causing creatures, and concluded measles, smallpox, and the plague to be of infectious origin.
-    He recommended quarantining of the sick, which is a technique still used in modern hospitals today.
-    
-    Ibn Sina also used drugs and herbal remedies as a part of his treatments. He understood how inflammation could occur before or anfter and infection and described the anti-inflammatory properties of saffron.
-    He had around 30 remedies to treat/manage depression alone. He also provided a method for testing the effectiveness of drugs as he believed the quality of the drug
-    needed to match the severity of the disease. He also believed that the same trials needed to provide similar results to that the effects of the drugs were consistent.
-    
-    Ibn Sina was a prolific writer and philosopher, who discussed mathematics, geometry, astronomy, physics, and more, but his contributions to medicine were truly monumental.`,
+    caption: `The Father of Modern Medicine`,
+    desc: 
+`Ibn Sina is one of the most influential doctors from the 11th century. He was a Muslim born in the Samanid Empire (Persia, modern day Uzbekistan)
+who memorized the Quran before becoming 10 years old. Following one of the teachings of the Quran which was to gain knowledge, started studying medicine
+at 16 years old and became a court physician at 18 years old. His studies and practice led him to writing his most influential work ***Qanun fil Tib***,
+a collection of 5 volumes, containing all medical and surgical knowledge known during his time. This was not the only work he had written as he authored 450
+books including the also influential ***Shefa***. His works were translated and used by medical universities worldwide up until the 17th century. 
+Ibn Sina learned from the works of earlier physicians like ***Hippocrates***, ***Galen***, and ***Al-Razi***, and furthered medical knowledge. 
+
+Ibn Sina was one of the first physicians to link mental health and disease. He believed that exhaustian, drug abuse, sexual devations, and congenital factors, 
+among other things were causes of mental disorders. He believed there was a link between the body and soul and recommended the use of physical exercise and musical therapy 
+in addition to drugs as a treatment for mental disorders. One of his famous experiments utilized 2 lambs being cared for similarly with the exception of one lamb
+facing a wolf. The lamb facing the wolf died before the lamb that could not see the wolf, which helped demonstrate the negative effects of stress on health.
+Ibn Sina further categorized mental disorders into 11 categories, which were sleeping disorders, transient brain dysfunctions,
+delirium, mental retardation, dementia, corruption of imagination, "dog's disease" (mania), melancholy, qhutrub, love disorder, and uterine suppression. He further described 
+5 forms of melancholy and 2 forms of mania. 
+
+Ibn Sina also made strides towards furthering anatomical knowledge. He was the first physician to find the stomach in the left side of the abdominal cavity. He was also the first to prove
+that the clavicle (collarbone) was only found in humans. He also specified the position of the heart to the left side of the chest, unlike Galen who assumed it to be
+central, but also accuratley describe the function of the aortic and atrioventricular valves of the heart. Ibn Sina further described the spinal cord to be a continuation of the brain and contained sensory and motor fibers. He was also able to accuratelty distinguish the functions of
+smooth and skeletal muscles. He was also able to describe the muscles of the eye and to determine the presence of "fertile" and "infertile" fluid from the testicles. He also is also considered
+one of the founders of pediatrics as he noted differences in peculiarities of the child's body compared to that of adults. 
+
+Ibn Sina also contributed to the field of surgery. He routinely removed bullets, stones, and turmors. He also invented catheters with rounded tips and side holes from animal skin, 
+which allowed for gentle procedures for his patients facing urinary disturbances. He was also the first to describe the antiseptic properties of alcohol, which became commonly used in
+medieval Europe and is still a common antiseptic used today.
+
+Infectiology was yet another field that Ibn Sina contributed to. He described the existance of "small-disease causing creatures, and concluded measles, smallpox, and the plague to be of infectious origin.
+He recommended quarantining of the sick, which is a technique still used in modern hospitals today.
+
+Ibn Sina also used drugs and herbal remedies as a part of his treatments. He understood how inflammation could occur before or anfter and infection and described the anti-inflammatory properties of saffron.
+He had around 30 remedies to treat/manage depression alone. He also provided a method for testing the effectiveness of drugs as he believed the quality of the drug
+needed to match the severity of the disease. He also believed that the same trials needed to provide similar results to that the effects of the drugs were consistent.
+
+Ibn Sina was a prolific writer and philosopher, who discussed mathematics, geometry, astronomy, physics, and more, but his contributions to medicine were truly monumental.`,
     data: {
       age: 56,
       birthday: "c.980 CE",

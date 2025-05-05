@@ -22,7 +22,7 @@ export default function People() {
       if (sortBy === SortType.Alphabetical) {
         return peopleCards.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
         .sort((a, b) => a.name.localeCompare(b.name))
-        .map((p, idx)=> <PersonCard key={idx} name={p.name} desc={p.desc} imgURL={p.url}  />)
+        .map((p, idx)=> <PersonCard key={idx} name={p.name} caption={p.caption} imgURL={p.url}  />)
       }
       else {
         return peopleCards.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))

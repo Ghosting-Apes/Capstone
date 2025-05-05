@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en" className="h-screen">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased border-2 h-full`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}
       >
         <MantineProvider theme={theme} defaultColorScheme="light">
           <div className="w-full min-w-[1200px] size-min-750 flex p-5">
