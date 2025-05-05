@@ -1,6 +1,4 @@
 "use client"
-import NavBar from "../components/NavBar";
-import { Timeline, Text, TimelineItem } from '@mantine/core';
 import { Chrono } from "react-chrono";
 
 export default function Time() {

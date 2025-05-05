@@ -3,10 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import '@mantine/core/styles.css';
 import '@mantine/carousel/styles.css';
-// import '@mantine/dropzone/styles.css';
-// import '@mantine/code-highlight/styles.css';
 import { createTheme, MantineProvider } from "@mantine/core";
-import Image from "next/image";
 import NavBar from "./components/NavBar";
 
 const geistSans = Geist({

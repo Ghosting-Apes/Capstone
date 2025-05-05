@@ -20,7 +20,7 @@ export default function InfoPage() {
             <div className="flex w-full">
                 <div className="flex h-full">
                     <Image 
-                    src={"https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs="} 
+                    src={person.url || ""} 
                     alt="hello" 
                     width={400}
                     height={200}

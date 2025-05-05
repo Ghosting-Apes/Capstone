@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
 import PersonCard from "../components/PersonCard";
-import { people, Person } from "../data/mock";
+import { people } from "../data/mock";
 import { Menu, Button } from "@mantine/core";
 import { IconArrowsSort, IconSortAZ, IconCalendarWeek } from '@tabler/icons-react';
 
@@ -15,7 +15,7 @@ export default function People() {
   const [sortBy, setSortBy] = useState(SortType.Alphabetical);
 
   // Cloned to not modify imported people list
-  let peopleCards = people;
+  const peopleCards = people;
 
 
   function makePeopleCards()  {
@@ -27,7 +27,7 @@ export default function People() {
       else {
         return peopleCards.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
         .sort((a, b) => a.data.yearRange.start - b.data.yearRange.start)
-        .map((p, idx)=> <PersonCard key={idx} name={p.name} desc={p.desc} imgURL={p.url}  />)
+        .map((p, idx)=> <PersonCard key={idx} name={p.name} caption={p.desc} imgURL={p.url}  />)
       }
   }
 

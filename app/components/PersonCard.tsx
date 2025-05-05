@@ -1,9 +1,9 @@
-import { Card, Image, Text, Button, Group } from '@mantine/core';
+import { Card, Image, Text, Group } from '@mantine/core';
 
 import styles from "./styles/CardHover.module.css";
 
-export default function PersonCard(props: any) {
-    let {name, caption, imgURL} = props;
+export default function PersonCard(props: {name: string, caption?: string, imgURL?: string}) {
+    const {name, caption, imgURL} = props;
     return (
         <div className="flex pb-10">
             <Card 
