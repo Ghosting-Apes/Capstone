@@ -1,9 +1,9 @@
 "use client"
-import type { Chrono as ChronoType } from "react-chrono";import dynamic from 'next/dynamic'
+import dynamic from 'next/dynamic';
 
-export const Chrono = dynamic(() => import('react-chrono').then(lib => lib.Chrono), {
+const Chrono = dynamic(() => import('react-chrono').then(mod => mod.Chrono), {
   ssr: false,
-}) as typeof ChronoType
+});
 
 export default function Time() {
   return (
