@@ -11,9 +11,9 @@ const routes: Record<string, string> = {
 export default function NavBar() {
   const router = useRouter();
   const pathName = usePathname();
-  const [currentIndex, setCurrentIndex] = useState(2); // start at Home by default
+  const [currentIndex, setCurrentIndex] = useState(2); // default to "Home"
 
-  // Set current index based on current path on initial load
+  // Sync tab with URL on refresh
   useEffect(() => {
     const indexFromPath = tabs.findIndex(tab => routes[tab] === pathName);
     if (indexFromPath !== -1) {
@@ -28,48 +28,52 @@ export default function NavBar() {
 
   return (
     <div className="flex flex-col items-center pt-4 gap-4">
-      <div className="relative w-[640px] h-[120px] perspective-[1000px]">
+      <div className="relative w-[720px] h-[140px] perspective-[1000px]">
         <div className="flex justify-center items-center gap-4 h-full">
           {tabs.map((tab, i) => {
             const relative = (i - currentIndex + tabs.length) % tabs.length;
 
-            let className = "absolute transition-all duration-500 ease-in-out";
+            let className = "absolute w-[120px] h-[60px] flex items-center justify-center transition-all duration-500 ease-in-out";
             let transform = "";
             let opacity = 0;
             let zIndex = 0;
 
             if (relative === 0) {
               // Center
-              transform = "translateZ(50px) scale(1.2)";
+              transform = "translateZ(50px)";
               opacity = 1;
               zIndex = 5;
               className += " font-bold text-black";
             } else if (relative === 1) {
               // Right 1
-              transform = "translateX(130px) rotateY(-15deg)";
+              transform = "translateX(160px) rotateY(-15deg)";
               opacity = 1;
               zIndex = 4;
+              className += " text-gray-600";
             } else if (relative === 2) {
               // Right 2
-              transform = "translateX(260px) rotateY(-30deg)";
+              transform = "translateX(320px) rotateY(-30deg)";
               opacity = 1;
               zIndex = 3;
+              className += " text-gray-400";
             } else if (relative === tabs.length - 1) {
               // Left 1
-              transform = "translateX(-130px) rotateY(15deg)";
+              transform = "translateX(-160px) rotateY(15deg)";
               opacity = 1;
               zIndex = 4;
+              className += " text-gray-600";
             } else if (relative === tabs.length - 2) {
               // Left 2
-              transform = "translateX(-260px) rotateY(30deg)";
+              transform = "translateX(-320px) rotateY(30deg)";
               opacity = 1;
               zIndex = 3;
+              className += " text-gray-400";
             }
 
             return (
               <div
                 key={tab}
-                className={`${className} bg-white px-6 py-4 rounded-xl shadow-md cursor-pointer text-lg`}
+                className={`${className} bg-white rounded-xl shadow-md cursor-pointer text-sm`}
                 style={{
                   transform,
                   opacity,
