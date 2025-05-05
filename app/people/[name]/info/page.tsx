@@ -5,9 +5,8 @@ import { people } from "@/app/data/mock";
 
 export default function InfoPage() {
     const params = useParams();
-    const { name } = params;
-
-    const formattedName = typeof name === "string" ? name!.split('-').join(' ') : name;
+    const slug = decodeURIComponent(params.name as string);
+    const formattedName = slug.split('-').join(' ');
 
     const person = people.filter(p => p.name === formattedName)[0];
 
@@ -22,7 +21,7 @@ export default function InfoPage() {
                     height={200}
                     />
                 </div>
-                <div className="ml-10 p-10 w-full border-amber-400">
+                <div className="ml-10 p-10 w-full">
                     <h1 className="font-bold text-2xl mb-8">{formattedName}</h1>
                     <p><span className="font-semibold">Full Name:</span> {formattedName}</p>
                     <p><span className="font-semibold">Age:</span> {person?.data?.age}</p>

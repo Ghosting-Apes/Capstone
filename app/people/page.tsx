@@ -1,9 +1,9 @@
 "use client";
 import { useState } from "react";
-import PersonCard from "../components/PersonCard";
 import { people } from "../data/mock";
 import { Menu, Button } from "@mantine/core";
 import { IconArrowsSort, IconSortAZ, IconCalendarWeek } from '@tabler/icons-react';
+import DataCard, { CardType } from "../components/DataCard";
 
 enum SortType {
   Alphabetical,
@@ -22,12 +22,12 @@ export default function People() {
       if (sortBy === SortType.Alphabetical) {
         return peopleCards.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
         .sort((a, b) => a.name.localeCompare(b.name))
-        .map((p, idx)=> <PersonCard key={idx} name={p.name} caption={p.caption} imgURL={p.url}  />)
+        .map((p, idx)=> <DataCard key={idx} name={p.name} caption={p.caption} imgURL={p.url} cardType={CardType.Person} />)
       }
       else {
         return peopleCards.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
         .sort((a, b) => a.data.yearRange.start - b.data.yearRange.start)
-        .map((p, idx)=> <PersonCard key={idx} name={p.name} caption={p.desc} imgURL={p.url}  />)
+        .map((p, idx)=> <DataCard key={idx} name={p.name} caption={p.desc} imgURL={p.url} cardType={CardType.Person}  />)
       }
   }
 

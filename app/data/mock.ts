@@ -20,23 +20,28 @@ export interface TimePeriod {
 export interface Works {
   title: string,
   desc: string,
-  origin: string
+  caption: string,
+  origin: string,
+  author?: string,
 }
 
 export interface Places {
   name: string,
   desc: string,
+  caption: string,
   origin: string
 }
 export interface Miscellaneous {
   title: string,
   desc: string,
+  caption: string,
   origin: string
 }
 
 export const miscellaneous: Miscellaneous[] = [
   {
     title: "Humourism",
+    caption: "The ancient Greek medical system",
     desc: `The ancient Greek medical system
     \n Humorism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles's notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the 
     four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the ***Hippocratic Corpus***. 
@@ -65,6 +70,7 @@ export const miscellaneous: Miscellaneous[] = [
 export const works: Works[] = [
   {
     title: "Qanun fil Tib",
+    caption: "Ibn Sina's Magnum Opus",
     desc: `Ibn Sina's Magnum Opus
     \n Qanun fil Tib, or "Canon of Medicine", written by the Muslim physician ***Ibn Sina***, is one of the most influential medical works. This book was widley used 
     in the West and Arab world, becoming the main medical source over ***Al-Razi***'s ***Kitab al-Hawi***, and was the standard medical textbook used in Europe until the 17th century.
@@ -86,7 +92,8 @@ export const works: Works[] = [
   {
     title: "",
     desc: "",
-    origin: ""
+    origin: "",
+    caption: ""
   }
 ]
 
@@ -96,7 +103,8 @@ export const places: Places[] = [
     desc: `Temples dedicated to Asclepios
     \n Asclepions were temples built in dedication to ***Asclepios***, the Greek god of medicine and healing. These temples served as places for people to take refuge in and rest, while also pray and heal. While there are multiple of these temples, the most famous temple
     is located in Epidaurus, where Asclepios was said to be born. This temple was built in the 4th century BCE and is a UNESCO World Heritage Site.`,
-    origin: "Mediterranean/Middle East"
+    origin: "Mediterranean/Middle East",
+    caption: "",
   }
 ]
 
