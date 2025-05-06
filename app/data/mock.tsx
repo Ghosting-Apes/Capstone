@@ -44,28 +44,16 @@ url?: string
 export const miscellaneous: Miscellaneous[] = [
 {
   title: "Humourism",
-  caption: "The ancient Greek medical system",
-  desc: `The ancient Greek medical system
-  \n Humorism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles's notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the 
-  four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the ***Hippocratic Corpus***. 
-  According to ***Hippocrates*** and his followers, the four personality types (temperaments) emerge from the four humors. The system was formalized by 
-  ***Galen***, who further expanded upon it adding the variables hot-cold and wet-dry, as well as four major organs, each of which linked to a humour. Galen believed that achieving equilibrium differed for each person, which is why people varied in health, personality, and sussceptibility to illness. 
-  The principles of humourism can be found in other systems such as within the ***five elements*** of the ***Ayurveda*** medical system.
-  
-  The humour of blood was linked to the heart, with an excess causing a sanguine temperament; these people are optimistic, social, and easy going. Blood was also linked to air, heat/wetness, and the season of spring. 
-  The humour of yellow bile was linked to the liver, and the temperament caused by an excess was the choleric personality, with its members considered to be strong-willed, independent, and decisive. Yellow bile was also linked to fire, heat/dryness, and the season of summer.
-  The humour of black bile was linked to the spleen, where people with excess had a melancholic temperament, being private, cautious, and logical. Black bile was also linked to earth, cold/dryness, and the season of fall.
-  The humour of phlegm was linked to the brain, and an excess caused a phlegmatic person, who was calm, accepting, and slow to anger. Phlegm was also linked to water, cold/wetness, and the season of winter.
-  
-  Excess of these humours was also linked to various symptoms. Excess blood lead to fever and inflammation, while excess yellow bile caused jaundice and indigestion, 
-  whereas excess black bile caused depression and melancholy, and excess phlegm caused chills and sneezes. Excess of these humours also affected temperaments. Excess blood could cause to tasks being abonded or a person being forgetful. 
-  Excess yellow bile could lead to a person becoming over-assertive or disorganized. Excess black bile could cause worry and anxiety. Excess phlegm could cause laziness or a person to fear change.
+  caption: "The Ancient Greek Medical System",
+  desc: `
+  Humourism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles's notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the ***Hippocratic Corpus***. According to ***Hippocrates*** and his followers, the four personality types (temperaments) emerge from the four humors. The system was formalized by ***Galen***, who further expanded upon it adding the variables hot-cold and wet-dry, as well as four major organs, each of which linked to a humour. Galen believed that achieving equilibrium differed for each person, which is why people varied in health, personality, and susceptibility to illness. The principles of humourism can be found in other systems such as within the ***five elements*** of the ***Ayurveda*** medical system.
 
-  An excess of these humours could be caused by a variety of different factors such as contaminated food or emotions like jealousy.
-  Various techniques were employed to help restore balance in the humours. Blood letting allowed the body to drain excess blood, while yellow bile was removed through cupping or emetics, and emetics could also remove black bile, while coughing and sneezing where the bodies way of removing excess phelgm. 
-  Diets and herbs were also prescribed as a way to restore the balance of a certain humour.
-  
-  The system of humourism persisted for around 2000 years until new scientific research and understanding emerged in the 18th century.`,
+  The humour of blood was linked to the heart, with an excess causing a sanguine temperament; these people are optimistic, social, and easy going. Blood was also linked to air, heat/wetness, and the season of spring. The humour of yellow bile was linked to the liver, and the temperament caused by an excess was the choleric personality, with its members considered to be strong-willed, independent, and decisive. Yellow bile was also linked to fire, heat/dryness, and the season of summer. The humour of black bile was linked to the spleen, where people with excess had a melancholic temperament, being private, cautious, and logical. Black bile was also linked to earth, cold/dryness, and the season of fall. The humour of phlegm was linked to the brain, and an excess caused a phlegmatic person, who was calm, accepting, and slow to anger. Phlegm was also linked to water, cold/wetness, and the season of winter.
+
+  Excess of these humours was also linked to various symptoms. Excess blood lead to fever and inflammation, while excess yellow bile caused jaundice and indigestion, whereas excess black bile caused depression and melancholy, and excess phlegm caused chills and sneezes. Excess of these humours also affected temperaments. Excess blood could cause to tasks being abandoned or a person being forgetful. Excess yellow bile could lead to a person becoming over-assertive or disorganized. Excess black bile could cause worry and anxiety. Excess phlegm could cause laziness or a person to fear change.
+
+  An excess of these humours could be caused by a variety of different factors such as contaminated food or emotions like jealousy. Various techniques were employed to help restore balance in the humours. Blood letting allowed the body to drain excess blood, while yellow bile was removed through cupping or emetics, and emetics could also remove black bile, while coughing and sneezing where the bodies way of removing excess phlegm. Diets and herbs were also prescribed as a way to restore the balance of a certain humour. The system of humourism persisted for around 2000 years until new scientific research and understanding emerged in the 18th century.
+`,
   origin: "Mediterranean/Middle East",
   url: "/misc/four-humours.jpg"
 },
@@ -94,22 +82,70 @@ export const miscellaneous: Miscellaneous[] = [
 },
 {
   title: "Acupuncture",
-  caption: "Needling",
+  caption: "Chinese Medical Needling",
   desc: `
-  N/A`,
+  Acupuncture is a ***traditional Chinese medical*** technique, which has been used for over 4000 years, that involves the use of needles to alleviate pain and cure certain illnesses. Acupuncture is used in combination of moxibustion, which is the burning of mugwort on the skin.
+
+  Acupuncture aims to correct the flow of qi within the patient and restore balance. Needles are inserted into the skin and underlaying tissue at specific points known as acupuncture points. These points can be far away from the location of the problem point. For example, the acupuncture points of the lower back can be found on the hand. These points can also be stimulated through pressure, heat, or a strong light.
+
+  The origins of acupuncture is thought to be from the second book of ***Huangdi Neijing***, which contains techniques and uses of acupuncture. Illustrations of meridians and acupuncture points are also included.
+
+  Modern Western studies have shown that this age old technique can be effective in relieving certain pains and discomforts.
+`,
   origin: "East Asia",
   url: "/misc/acupuncture.jpg"
 },
 {
+  title: "Hippocratic Oath",
+  caption: "A Physicians Pledge",
+  desc: `
+  The Hippocratic Oath is the oldest and most widely known treatise on medical ethics used. Its origins are from ***Hippocrates*** who made his new students swear by an oath to their peers and seniors that they will obey their duties as physicians to their patients. The Hippocratic Oath has been revised over time removing aspects like swearing to various Greek gods and changes to the view of abortions.
+The following is the Classical Hippocratic Oath:
+"I swear by Apollo the physician, and Aesculapius the surgeon, likewise Hygeia and Panacea, and call all the gods and goddesses to witness, that I will observe and keep this underwritten oath, to the utmost of my power and judgment.
+I will reverence my master who taught me the art. Equally with my parents, will I allow him things necessary for his support, and will consider his sons as brothers. I will teach them my art without reward or agreement; and I will impart all my acquirement, instructions, and whatever I know, to my master's children, as to my own; and likewise to all my pupils, who shall bind and tie themselves by a professional oath, but to none else.
+With regard to healing the sick, I will devise and order for them the best diet, according to my judgment and means; and I will take care that they suffer no hurt or damage.
+Nor shall any man's entreaty prevail upon me to administer poison to anyone; neither will I counsel any man to do so. Moreover, I will give no sort of medicine to any pregnant woman, with a view to destroy the child.
+Further, I will comport myself and use my knowledge in a godly manner.
+I will not cut for the stone, but will commit that affair entirely to the surgeons.
+Whatsoever house I may enter, my visit shall be for the convenience and advantage of the patient; and I will willingly refrain from doing any injury or wrong from falsehood, and (in an especial manner) from acts of an amorous nature, whatever may be the rank of those who it may be my duty to cure, whether mistress or servant, bond or free.
+Whatever, in the course of my practice, I may see or hear (even when not invited), whatever I may happen to obtain knowledge of, if it be not proper to repeat it, I will keep sacred and secret within my own breast.
+If I faithfully observe this oath, may I thrive and prosper in my fortune and profession, and live in the estimation of posterity; or on breach thereof, may the reverse be my fate!"
+
+Many revisions have occurred and the following is the 1964 Dr. Louis Lasagna revision, that is widely accepted in many medical schools:
+"I swear to fulfill, to the best of my ability and judgment, this covenant: 
+I will respect the hard-won scientific gains of those physicians in whose steps I walk, and gladly share such knowledge as is mine with those who are to follow. 
+I will apply, for the benefit of the sick, all measures [that] are required, avoiding those twin traps of overtreatment and therapeutic nihilism. 
+I will remember that there is art to medicine as well as science, and that warmth, sympathy, and understanding may outweigh the surgeon's knife or the chemist's drug. 
+I will not be ashamed to say "I know not," nor will I fail to call in my colleagues when the skills of another are needed for a patient's recovery. 
+I will respect the privacy of my patients, for their problems are not disclosed to me that the world may know. 
+Most especially must I tread with care in matters of life and death. If it is given me to save a life, all thanks. But it may also be within my power to take a life; this awesome responsibility must be faced with great humbleness and awareness of my own frailty. 
+Above all, I must not play at God. 
+I will remember that I do not treat a fever chart, a cancerous growth, but a sick human being, whose illness may affect the person's family and economic stability. My responsibility includes these related problems, if I am to care adequately for the sick. 
+I will prevent disease whenever I can, for prevention is preferable to cure. 
+I will remember that I remain a member of society, with special obligations to all my fellow human beings, those sound of mind and body as well as the infirm. 
+If I do not violate this oath, may I enjoy life and art, respected while I live and remembered with affection thereafter. 
+May I always act so as to preserve the finest traditions of my calling and may I long experience the joy of healing those who seek my help."
+`,
+  origin: "Mediterranean/Middle East",
+  url: "/misc/hippoath.jpg"
+},
+{
   title: "Ayurveda",
   caption: "\"Life Knowledge\"",
-  desc: `Ayurveda (“Life Knowledge”) is a traditional medical system that has prevailed in southern Asia for over 2000 years. Its earliest form is dated to the Vedic period of Indian (c. 5000 BCE), while its roots are attributed to ***Dhanvantari***, who was deified as the Hindu god of medicine and is the physician of other Hindu gods.
-The basis of Ayurveda is formed by two major works, ***Sushruta Samhita*** and ***Chakara Samhita***. There are also three more works that contribute to Ayurveda, those being ***Ashtanga Hridayam***, Ashtanga Sangraha, and the Bower Manuscript.
-Similarly to concepts from ***traditional Chinese medicine***, most Ayurveda systems are based on the idea of the five elements, water (jala/ap), fire (tejas/agni), earth (privthi/bhumi), air (pavana/vayu), and ether/space (akasha). Similary to ***Humourism***, within a person the proportion of each element various and contributes to three doshas, which are wind (vata), bile (pitta), and phlegm (kapha). When these dosha are in balance a person has good health, but imbalance causes sickness related to the dominate dosha. Increased vata may cause indigestion, flatulence, and cramps, while increased kapla may cause coughing and difficulty breathing. 
-Doshas flow within a person through pores in the body called srotas, which are similar to the meridian channels of ***acupuncture***. The body has 16 of the srotas which carries energy, nutrients, waste, learning, and wisdom. Three srotas are connected to the outside world; prana vaha carries breath, while anna vaha carries food, and udaka vaha carries water. Another three srotas are used for metabolic waste; purisha vaha carries solid waste, while mutra vaha carries urine, and sveda vaha carries perspiration. There is a specific srota, maho vaha, for the mind which carries ideas, feelings, thoughts, and emotions. There is also the artava vaha srota for menstruation and the stanya vaha srota for lactation. The remaining seven srotas are connected to tissues of the body (dhatus), which includes rakta (blood), rasa (lymph), mamsa (muscles), asthi (bones), majja (bone marrow, brain, and nerves), medas (fat), and shukra (reproductive organs).
-Another concept found in Ayurvedic medicine is that of the seven “energy centers” (chakras). These chakras are not a part of the physical body, but are spinning vortexes found in the etheric realm. The chakras are aligned along the midline of the body and imbalance can lead to other parts of the body being affected like the doshas.
-Ayurvedic medicine also has the concept of “digestive fire” (agni). This not only referred the body’s metabolism, but also to the ability to assimilate learning, memories, and the ability to burn waste from the skin or mind. Agni can be influenced by the three doshas or seven chakras. 
-While Ayurvedic medicine has its roots to southern Asia, practice has spread worldwide, especially to those looking for alternative medical therapies.
+  desc: `
+  Ayurveda (“Life Knowledge”) is a traditional medical system that has prevailed in southern Asia for over 2000 years. Its earliest form is dated to the Vedic period of Indian (c. 5000 BCE), while its roots are attributed to ***Dhanvantari***, who was deified as the Hindu god of medicine and is the physician of other Hindu gods.
+
+  The basis of Ayurveda is formed by two major works, ***Sushruta Samhita*** and ***Chakara Samhita***. There are also three more works that contribute to Ayurveda, those being ***Ashtanga Hridayam***, Ashtanga Sangraha, and the Bower Manuscript.
+
+  Similarly to concepts from ***traditional Chinese medicine***, most Ayurveda systems are based on the idea of the five elements, water (jala/ap), fire (tejas/agni), earth (privthi/bhumi), air (pavana/vayu), and ether/space (akasha). Similary to ***Humourism***, within a person the proportion of each element various and contributes to three doshas, which are wind (vata), bile (pitta), and phlegm (kapha). When these dosha are in balance a person has good health, but imbalance causes sickness related to the dominate dosha. Increased vata may cause indigestion, flatulence, and cramps, while increased kapla may cause coughing and difficulty breathing. 
+
+  Doshas flow within a person through pores in the body called srotas, which are similar to the meridian channels of ***acupuncture***. The body has 16 of the srotas which carries energy, nutrients, waste, learning, and wisdom. Three srotas are connected to the outside world; prana vaha carries breath, while anna vaha carries food, and udaka vaha carries water. Another three srotas are used for metabolic waste; purisha vaha carries solid waste, while mutra vaha carries urine, and sveda vaha carries perspiration. There is a specific srota, maho vaha, for the mind which carries ideas, feelings, thoughts, and emotions. There is also the artava vaha srota for menstruation and the stanya vaha srota for lactation. The remaining seven srotas are connected to tissues of the body (dhatus), which includes rakta (blood), rasa (lymph), mamsa (muscles), asthi (bones), majja (bone marrow, brain, and nerves), medas (fat), and shukra (reproductive organs).
+
+  Another concept found in Ayurvedic medicine is that of the seven “energy centers” (chakras). These chakras are not a part of the physical body, but are spinning vortexes found in the etheric realm. The chakras are aligned along the midline of the body and imbalance can lead to other parts of the body being affected like the doshas.
+
+  Ayurvedic medicine also has the concept of “digestive fire” (agni). This not only referred the body’s metabolism, but also to the ability to assimilate learning, memories, and the ability to burn waste from the skin or mind. Agni can be influenced by the three doshas or seven chakras. 
+
+  While Ayurvedic medicine has its roots to southern Asia, practice has spread worldwide, especially to those looking for alternative medical therapies.
 `,
   origin: "South Asia",
   url: "/misc/ayurveda-chakra.png"
@@ -117,8 +153,10 @@ While Ayurvedic medicine has its roots to southern Asia, practice has spread wor
 {
   title: "Kampo",
   caption: "\"Method from the Han Period\"",
-  desc: `Kampo, which literally translates to “method from the Han period of ancient China (206 BCE – 220 CE) is the traditional herbal medical system of Japan. Before Kampo, Japanese medicine was based on prayers, rituals, and incantations, as evil spirits and the gods were believed to be the cause of ill health. Starting in 608 CE, Japanese physicians were sent to mainland China to study medicine, causing an influx of ***traditional Chinese medicine*** influence on Japanese medicine. By 982 CE, ***Ishinpo*** by ***Tamba Yasuyori*** was completed, which is the oldest surviving Japanese medical work. It was not until the Edo period (1600 CE) for Japanese characteristics to form in Kampo. Works by ***Menase Dosan*** and ***Nagata Tokuhun*** also contributed significantly to Kampo, promoting a holistic understanding of disease beyond symptom management. 
-Kampo has persisted to today with ~50% of Japanese physicians today prescribing some form of Kampo remedy and over 10000 pharmacies in Japan that dispense herbal remedies. Systemic research studies have also started to arise to test the effectiveness of Kampo therapies.
+  desc: `
+  Kampo, which literally translates to “method from the Han period of ancient China (206 BCE – 220 CE) is the traditional herbal medical system of Japan. Before Kampo, Japanese medicine was based on prayers, rituals, and incantations, as evil spirits and the gods were believed to be the cause of ill health. Starting in 608 CE, Japanese physicians were sent to mainland China to study medicine, causing an influx of ***traditional Chinese medicine*** influence on Japanese medicine. By 982 CE, ***Ishinpo*** by ***Tamba Yasuyori*** was completed, which is the oldest surviving Japanese medical work. It was not until the Edo period (1600 CE) for Japanese characteristics to form in Kampo. Works by ***Manase Dosan*** and ***Nagata Tokuhun*** also contributed significantly to Kampo, promoting a holistic understanding of disease beyond symptom management. 
+
+  Kampo has persisted to today with ~50% of Japanese physicians today prescribing some form of Kampo remedy and over 10000 pharmacies in Japan that dispense herbal remedies. Systemic research studies have also started to arise to test the effectiveness of Kampo therapies.
 `,
   origin: "East Asia",
   url: "/misc/kampo.png"
@@ -149,35 +187,27 @@ export const works: Works[] = [
   title: "Qanun fil Tib",
   caption: "Ibn Sina's Magnum Opus",
   author: "Ibn Sina",
-  desc: `Ibn Sina's Magnum Opus
-  \n Qanun fil Tib, or "Canon of Medicine", written by the Muslim physician ***Ibn Sina***, is one of the most influential medical works. This book was widley used 
-  in the West and Arab world, becoming the main medical source over ***Al-Razi***'s ***Kitab al-Hawi***, and was the standard medical textbook used in Europe until the 17th century.
-  
-  The work contains over 1 million words that is encompassed within 5 volumes. It contained all medical and surgical knowledge of the time and included the doctrines of 
-  ***Hippocrates***, ***Galen***, and Aristotle. In the 12th century, Qanun fil Tib was translated into Latin, leading it dominate medicine during medieval times.
-  It has been translated into many languages and published many times since. 
-  
-  The first volume concerns the origins of health and sickness as well as the anatomy and function of the body. This volume contained four treatises the first of which discussed the four elements (earth, air, fire, and water), considering
-  Galen's ***Four Humours***; this treatise also discussed anatomy. The second treatise then moves on to etiology of disease and symptoms, while the third treatise discussed hygine, health, sickness, as well as the definiteness of death. The final treatise discusses therapuetic classifications of disease (nosology),
-  as well as general dietary treatments and regimens. The second volume moves on to discuss information on over 700 drugs and medicines. The third volume focused on diagnosis and treating different diseases to different parts of the body. The fourth volume's focus is on conditions affecting the entire body, while the final volume was centered around 
-  preparing medical remedies. The simple and compound drugs discussed within the second and fifth volumes develop upon Galen's humoral pathology.
-  
-  Ibn Sina also had intended for an appendix with his original clinical records, however these were lost, with only an Arabic text surving within a 1593 Roman publication of Qanun fil Tib.
-  
-  Qanun fil Tib undoubtably left a legacy upon medical learning and knowledge.`,
+  desc: `
+  Qanun fil Tib, or "Canon of Medicine", written by the Muslim physician ***Ibn Sina***, is one of the most influential medical works. This book was widely used in the West and Arab world, becoming the main medical source over ***Al-Razi***'s ***Kitab al-Hawi***, and was the standard medical textbook used in Europe until the 17th century.
+
+  The work contains over 1 million words that is encompassed within 5 volumes. It contained all medical and surgical knowledge of the time and included the doctrines of ***Hippocrates***, ***Galen***, and Aristotle. In the 12th century, Qanun fil Tib was translated into Latin, leading it dominate medicine during medieval times. It has been translated into many languages and published many times since. 
+
+  The first volume concerns the origins of health and sickness as well as the anatomy and function of the body. This volume contained four treatises the first of which discussed the four elements (earth, air, fire, and water), considering Galen's ***Four Humours***; this treatise also discussed anatomy. The second treatise then moves on to etiology of disease and symptoms, while the third treatise discussed hygiene, health, sickness, as well as the definiteness of death. The final treatise discusses therapeutic classifications of disease (nosology), as well as general dietary treatments and regimens. The second volume moves on to discuss information on over 700 drugs and medicines. The third volume focused on diagnosis and treating different diseases to different parts of the body. The fourth volume's focus is on conditions affecting the entire body, while the final volume was centered around preparing medical remedies. The simple and compound drugs discussed within the second and fifth volumes develop upon Galen's humoral pathology.
+
+  Ibn Sina also had intended for an appendix with his original clinical records, however these were lost, with only an Arabic text surviving within a 1593 Roman publication of Qanun fil Tib.
+
+  Qanun fil Tib undoubtably left a legacy upon medical learning and knowledge.
+`,
   origin: "Mediterranean/Middle East",
   url: "/works/qanun.jpg"
 },
 {
   title: "Sushrita Samhita",
-  desc: `The Sushruta Samhita forms one of the main basis of ***Ayurvedic*** medicine and is attributed to the Indian surgeon ***Sushruta***. 
-  Samhita means collection/compilation and the Sushruta Samhita contains information about Ayurvedic surgery (shalya chikitsa), teeth extractions, 
-  cyst draining, cataract removal, hernia repair, setting broken bones, cauterizing hemorrhoids, and Samhitas specialty, rhinoplasty, to name a few. 
-  The collection contains over 300 surgical procedures and 120 surgical tools, but also has over 1000 diseases and injuries along with more than 700 herbal remedies.
-  As extensive as Sushrita Samhita was, it was unknown outside of India until the 8th century CE, during when it was translated in Arabic. It was not until the 19th 
-  century that the text was known in the West after Hamilton Bower purchased the now called Bower Manuscript which contained information 
-  from Sushruta Samhita as well as ***Charaka Samhita***. The English translation became available in the 20th century CE after it was translated 
-  into three volumes by Kaviraj Kunja Lal Bhishagratna.`,
+  desc: `
+  The Sushruta Samhita forms one of the main basis of ***Ayurvedic*** medicine and is attributed to the Indian surgeon ***Sushruta***. Samhita means collection/compilation and the Sushruta Samhita contains information about Ayurvedic surgery (shalya chikitsa), teeth extractions, cyst draining, cataract removal, hernia repair, setting broken bones, cauterizing hemorrhoids, and Samhitas specialty, rhinoplasty, to name a few. The collection contains over 300 surgical procedures and 120 surgical tools, but also has over 1000 diseases and injuries along with more than 700 herbal remedies.
+
+  As extensive as Sushrita Samhita was, it was unknown outside of India until the 8th century CE, during when it was translated in Arabic. It was not until the 19th century that the text was known in the West after Hamilton Bower purchased the now called Bower Manuscript which contained information from Sushruta Samhita as well as ***Charaka Samhita***. The English translation became available in the 20th century CE after it was translated into three volumes by Kaviraj Kunja Lal Bhishagratna.
+`,
   author: "Sushrita",
   origin: "South Asia",
   caption: "An Ayurvedic Surgical Collection",
@@ -185,13 +215,11 @@ export const works: Works[] = [
 },
 {
   title: "Ishinpo",
-  desc: `Ishinpo, written by ***Tamba Yasuyori***, who completed the work in 982 CE, is the oldest Japanese medical text that is still in existence. 
-  The work is a collection of 30 volumes based entirely upon classical ***traditional Chinese medicine*** texts from the Sui and Tang dynasties (581 CE - 907 CE). 
-  Due to this, yin and yang is the basis of the theory of disease causation. The work discusses a large range of topics from disease and their treatment, organized by
-  the affected organs or systems, drugs and their formulas, ***acupuncture***, diets, Buddhist sutras and more. The work itself also helped to preserve information
-  from the Chinese texts used in this collection that have since been lost. The work itself had been sequestered in the imperial collection with very little copies
-  in circulation. It was not until 1854 CE, when the Tokugawa shogun ordered for this work to be sent to the Edo Medical Academy for its revision and reproduction,
-  for Ishinpo to be made known worldwide. Ishinpo is one of the significant texts of ***Kampo***.`,
+  desc: `
+  Ishinpo, written by ***Tamba Yasuyori***, who completed the work in 982 CE, is the oldest Japanese medical text that is still in existence. The work is a collection of 30 volumes based entirely upon classical ***traditional Chinese medicine*** texts from the Sui and Tang dynasties (581 CE - 907 CE). Due to this, yin and yang is the basis of the theory of disease causation. The work discusses a large range of topics from disease and their treatment, organized by the affected organs or systems, drugs and their formulas, ***acupuncture***, diets, Buddhist sutras and more. The work itself also helped to preserve information from the Chinese texts used in this collection that have since been lost. The work itself had been sequestered in the imperial collection with very little copies in circulation. It was not until 1854 CE, when the Tokugawa shogun ordered for this work to be sent to the Edo Medical Academy for its revision and reproduction, for Ishinpo to be made known worldwide.
+
+  Ishinpo is one of the significant texts of ***Kampo***.
+`,
   author: "Tamba Yasuyori",
   origin: "East Asia",
   caption: "The Oldest Surviving Medical Text from Japan",
@@ -217,6 +245,20 @@ export const works: Works[] = [
   origin: "South Asia",
   caption: "TBD",
   url: "/works/cha-sam.jpg"
+},
+{
+  title: "Huangdi Neijing",
+  desc: `
+  The Huangdi Neijing (Yellow Emperor's Classic of Internal Medicine) is a 2000 year old work that is the primary source of knowledge about early ***traditional Chinese medicine***. 
+	
+  The Huangdi Neijing is laid out in the format of a question and answer discussion between the Yellow Emperor Huang-di and his advisors. Huang-di asks a question and his advisors provide an answer. 
+	
+  The book itself covers many traditional concepts including yin-yang, zang-fu, the xu-xing, and flow of qi. The book also contains many diagnostic procedures like checking pulses, observing tongues, and examining excrement. A wide array of treatments are included such as herbal/mineral formulas, massages, special diets, meditation, bathing, exercise, and ***Acupuncture***.
+`,
+  author: "N/A",
+  origin: "East Asia",
+  caption: "Yellow Emperor's Classic of Internal Medicine",
+  url: "/works/huand.png"
 }
 ]
 
@@ -224,15 +266,19 @@ export const places: Places[] = [
 {
   name: "Asclepeions",
   caption: "Temples Dedicated to Asclepios",
-  desc: `Asclepions were temples built in dedication to ***Asclepios***, the Greek god of medicine and healing. These temples served as places for people to take refuge in and rest, while also pray and heal. While there are multiple of these temples, the most famous temple
-  is located in Epidaurus, where Asclepios was said to be born. This temple was built in the 4th century BCE and is a UNESCO World Heritage Site.`,
+  desc: `
+  Asclepions were temples built in dedication to ***Asclepios***, the Greek god of medicine and healing. These temples served as places for people to take refuge in and rest, while also pray and heal. While there are multiple of these temples, the most famous temple is located in Epidaurus, where Asclepios was said to be born. This temple was built in the 4th century BCE and is a UNESCO World Heritage Site.`,
   origin: "Mediterranean/Middle East",
   url: "/places/asclepions.jpg"
 },
 {
   name: "Jundi Shapur",
   caption: "\"Beautiful Garden\"",
-  desc: `N/A`,
+  desc: `
+  Jundi Shapur, which means “Beautiful Garden”, was the first medical school in pre-Islamic ancient Iran (located in modern day Khuzestan). The location was originally founded by the Sassanid Emperor, Shapur I, as a prison, but became a refugee for intellectuals coming from the Greeks, Syrians, and Nestorians. 
+
+  The Byzantines destroying the School of Edessa (modern day Urfa, Turkey) in 457 CE as well as it being later closed by Emperor Zeno in 489 CE, followed by the closing of the Athenian Academy by Byzantine Emperor Justinian in 529 CE, led to these Greek and Nestorian physicians to emigrate to Jundi Shapur, where they sought the patronage of Shapur II. Further more in 555 CE, king Khosraw Anushirawan, established a medical centre and hospital, allowing for the medical traditions of the Greeks, Persians, Indians, Jews, Nestorians, and Zoroastrians to meet and further develop; this was the foundation of medical developments under Muslim rule. The physician of the prophet Muhammad (PBUH) had trained at Jundi Shapur, and Jundi Shapur was the center of medical teaching in the Islamic world until Baghdad under Al-Mansur in 762 CE.
+`,
   origin: "Mediterranean/Middle East",
   url: "/places/jundi.jpg"
 },
@@ -242,6 +288,13 @@ export const places: Places[] = [
   desc: `N/A`,
   origin: "East Asia",
   url: "/places/gokurakuji.png"
+},
+{
+  name: "Nalanda University",
+  caption: "TBD",
+  desc: `N/A`,
+  origin: "South Asia",
+  url: "/places/nalanda.jpg"
 }
 ]
 
@@ -274,7 +327,15 @@ export const people: Person[] = [
 {
   name: "Al-Razi",
   caption: "Chief Physician and Hippocratic Reviver",
-  desc: `N/A`,
+  desc: `
+  Al-Razi was a chief physician in Rey and Baghdad hospitals who helped synthesize past medical knowledge like from ***Hippocrates*** and ***Galen***. He was a prolific writer contributing over 100 works on metaphysics and medicine. His two most famous encyclopedic texts were Al-Mansouri fi Al-Tib (The Book on Medicine Dedicated to Al-Mansour) and Kitab Al-Hawi fi Al-Tib (The Comprehensive Book on Medicine). These texts were used after his death and translated into Latin for use in Europe. The famous physician ***Ibn Sina*** borrowed heavily from Al-Razi.
+
+  Al-Razi was the first two recommend clinical trials. He said that to observe the outcome of bloodletting on a condition, patients must be divided into two groups with only one group receiving the bloodletting to compare the outcome. Al-Razi was also considered “the Father of Pediatrics” due to his book Kitab fi Al-Jadari wa Al-Hasbah, which also included information on measles and small pox.
+
+  He also emphasized how doctor-patient relationships were important and revived the ***Hippocratic Oath***, as he regarded all patients worthy of attention and entrusted physicians to do no harm. He also placed important on patient history, using it to amend treatments. He also believed in the importance of preventing rather than treating disease, searching for the cause. He knew about the benefits of good hygiene and diet. 
+
+  His philosophy and help in translating older texts left a lasting impact on future medical knowledge in the Islamic world and beyond.
+`,
   data: {
     age: 60,
     birthday: "c. 865 CE",
@@ -318,7 +379,17 @@ export const people: Person[] = [
 {
   name: 'Hippocrates of Kos',
   caption: "The Father of Medicine",
-  desc: `The Father of Medicine`,
+  desc: `
+  Hippocrates of Kos was a Greek physician is often given the title the Father of Medicine. He took Greek medicine from having a supernatural basis to a scientific basis and caused it to become a respected profession. He insisted on observation and recording case histories, and by doing so, he was able to compare cases and make the first systematic differentiation of disease. 
+
+  Hippocrates initially learned medicine from his father who was also a physician. Hippocrates was also know to have travelled, possibly reaching Libya and Egypt, however much of the details of his life are known. Hippocrates is most often attributed to the ***Hippocratic Corpus***, which helps to distinguish Greek Medicine from ancient Egyptian and Mesopotamian medicine; it is uncertain however, how much of the writing came from Hippocrates himself, as his followers likely contributed. 
+
+  One of his greatest contributions is the ***Hippocratic Oath***, which established a professional code of conduct, that even physicians of today must take. The medical school he founded at Cos (400 BCE), brought him fame as he made his incoming students take this oath, in front of peers and elders. 
+
+  During Hippocrates’ time knowledge of anatomy and physiology was limited since the Greeks did not dissect dead bodies, but through careful observation of patients, he was able to determine different illnesses such as tuberculosis and malaria. He made categories of illness from epidemic and endemic, to chronic and acute, which are terms still used in the modern era.  He was also a skilled surgeon and studied orthopedics. 
+
+  Hippocrates also established the system of ***Humourism***. He believed that imbalance of the humours caused disease, and was likely the first physician to believe disease were natural and by supernatural forces. He believed in diets and exercise to help build up the body’s strength would provide a person inherit resistance against disease. He also understood the importance of good hygiene and rest.
+`,
   data: {
     age: 90,
     birthday: "c. 460 BCE",
@@ -330,7 +401,17 @@ export const people: Person[] = [
 {
   name: 'Cladius Galen',
   caption: "The Roman Philosopher and Physician",
-  desc: `N/A`,
+  desc: `
+  Galen was a Roman physician and philosopher who became the foremost medical authority within the Roman Empire. Galen was also a prolific writer, writing over 400 volumes and building upon works from ***Hippocrates*** and other Greek physicians, and his works influenced medical theory and practice until the 17th century CE. Galen embraced Hippocratic ideas like ***Humourism***, and expanded upon it adding other variables like hot-cold and wet-dry. 
+
+  Galen was initially educated on rhetoric and philosophy, destined to become a lawyer or government official, however his hometown Pergamon had an ***Asclepion***, which his father helped in renovating, causing him to ask Galen to take up medicine. Galen then studied in Smyrna and Alexandria, learning anatomical science and physiological theory. 
+
+  Upon returning to Pergamon in 157 CE, he took up a position as a physician-surgeon to the gladiators, where he was able to take notes on the different wounds sustained. He was able to help decrease death rates increasing his fame. After Pergamon fell to the Romans, Galen moved to Rome in 162 CE, where he performed public anatomical demonstrations using a variety of animals; the Romans did not dissect at this time. Although he was controversial he was able to treat and impress many influential citizens and became the court physician of multiple emperors including Marcus Aurelius.
+
+  Galen soon began his prolific career, writing treatises covering topics of anatomy, physiology, pharmacy, and therapeutics. Galen was personally most interested in anatomy, which he believed served as the basis for all medicine; however, laws forbade him from directly opening human bodies. He therefore studied using animal models and was still able to make accurate descriptions of the true identity of  many muscles and tendons, such as showing the kidneys role in urine synthesis. However Galen also made many educated guesses, such as the heart being in the center of the body, which was proven incorrect by ***Ibn Sina***. Unfortunately many of his writings were lost to a fire at the Great Temple of Peace in Rome.
+
+  Galen’s influence persisted through the ages until the 16th century CE when his tenets of medicine began to be dismantled, but his works were still referred to by some physicians in the 19th century. 
+`,
   data: {
     age: 87,
     birthday: "c. 129 CE",
@@ -342,7 +423,15 @@ export const people: Person[] = [
 {
   name: 'Kajiwara Shozen',
   caption: "Buddhist Priest and Clinical Physician",
-  desc: `N/A`,
+  desc: `
+  Kajiwara Shozen was a monk-doctor, who studied Buddhist scriptures and mastered medicine under the Tanba and Wake families, who were heads of the medical bureau for generations. One of his greatest contributions was his writing, Tonisho, which was Japan’s first medical encyclopedia. 
+
+  During Shozen’s time religious institutions were not just centers of spiritual life, but also served as hubs of healing. Through working at ***Gokuraku-ji***, he was able to merge the ethical imperatives of Buddhist teaching with direct clinical care. Shonzen also actively engaged with foreign medical knowledge. He accessed many Chinese texts from the Song dynasty (aided by their printing revolution), learning about a wide arrange of topics from disease, to health regimens to prevent the diseases, and medical ethics. In creating his Tonisho, he did not directly quote Chinese texts as many previous medical books did, but used his own words and kana (one of the writing forms in Japan) and was the first to include anatomical diagrams. During his time, medicine tended to be kept secret and within the family, but Shozen wanted to spread the profession to help save people.
+
+  Shozen also took a dual approach to medicine. Through his Buddhist origins, he viewed illness as a manifestation of karmic imbalance. He encouraged moral and ritualistic practices to restore both physical health and spiritual integrity of the person; which helped offer a moral framework to understanding disease. Through embracing Song medical knowledge however, he was able to apply structured and textually based prescription methods. His work provided careful formulation and dosages of prescriptions.
+
+  Through his working during a time of a warrior government he was able to advance the filed of wound medicine and pharmaceutical practice, that was able to carry on to future generations. He was able to demonstrate the importance of cross cultural exchange in furthering medicine. His legacy left a mark on Japanese medical knowledge.
+`,
   data: {
     age: 72,
     birthday: "1265 CE",
@@ -372,29 +461,17 @@ export const people: Person[] = [
   url: "/people/sushruta.jpg"
 },
 {
-  name: 'Charaka',
-  caption: "TBD",
+  name: 'Manase Dosan',
+  caption: "Influential Japanese Physician",
   desc: `
-  TBD
+  Manase Dosan, real name Shosei, was one of Japan’s most influential physicians, initiating the revival of Japanese medicine. His most significant work was Keitekishu (Collected Teachings), which was a 15-volume medical work, which classified diseases (and symptoms) into 51 groups. He also wrote a few other works.
+
+  As a child, Dosan joined Shokoku-ji in Kyoto, where he became a postulant and learned poetry and calligraphy. He later went to Ashikaga-Gakko to study and became interested in medicine there. It was here that he learned about the Li-Zhu (cutting edge) medicine that had been imported from China. Upon returning to Kyoto he dedicated his time to medicine and began to gain fame by examining influential military commanders. He also established Keiteki-in Medical Center in Kyoto. He taught medicine to hundreds of disciples, reviving medicine in Japanese.
 `,
   data: {
-    age: 10000000,
-    birthday: "60000000 BCE",
-    yearRange: {start: -60000000000, end: -501},
-    origin: "South Asia"
-  },
-  url: "/people/cha.jpg"
-},
-{
-  name: 'Menase Dosan',
-  caption: "TBD",
-  desc: `
-  TBD
-`,
-  data: {
-    age: 10000000,
-    birthday: "60000000 BCE",
-    yearRange: {start: -60000000000, end: -501},
+    age: 86,
+    birthday: "1507 CE",
+    yearRange: {start: 1507, end: 1594},
     origin: "East Asia"
   },
   url: "/people/menase.png"
