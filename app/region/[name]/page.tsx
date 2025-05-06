@@ -19,18 +19,18 @@ export default function RegionPage() {
 
     const getWorks = () => {
         return works.filter(w => w.origin === regionName || w.origin.includes(regionName))
-        .map((w, idx) => <DataCard key={idx} name={w.title} caption={w.caption} imgURL={"/works/stock-img.jpg"} cardType={CardType.Work} />)
+        .map((w, idx) => <DataCard key={idx} name={w.title} caption={w.caption} imgURL={w.url || "/works/stock-img.jpg"} cardType={CardType.Work} />)
     }
 
     const getPlaces = () => {
         return places.filter(p => p.origin === regionName || p.origin.includes(regionName))
-        .map((p, idx) => <DataCard key={idx} name={p.name} caption={p.caption} imgURL={"/places/stock-img.jpg"} cardType={CardType.Place} />)
+        .map((p, idx) => <DataCard key={idx} name={p.name} caption={p.caption} imgURL={p.url || "/places/stock-img.jpg"} cardType={CardType.Place} />)
     }
 
 
     const getMisc = () => {
         return miscellaneous.filter(m => m.origin === regionName || m.origin.includes(regionName))
-        .map((m, idx) => <DataCard key={idx} name={m.title} caption={m.caption} imgURL={"/misc/stock-img.jpg"} cardType={CardType.Miscellaneous} />)
+        .map((m, idx) => <DataCard key={idx} name={m.title} caption={m.caption} imgURL={m.url || "/misc/stock-img.jpg"} cardType={CardType.Miscellaneous} />)
     }
 
     return (
