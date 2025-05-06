@@ -26,11 +26,10 @@ export default function Time() {
           cardTitle: "Evidence of Surgery",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/trepp.png"
             },
             type: "IMAGE"
           },
-          url: "https://google.com",
           cardSubtitle: "Skulls found with holes drilled into them. This procedure is known as trepanning and has been used over different time periods to treat various medical conditions."
         },
         {
@@ -38,7 +37,7 @@ export default function Time() {
           cardTitle: "Mummified Information",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/mummy.png"
             },
             type: "IMAGE"
           },
@@ -49,7 +48,7 @@ export default function Time() {
           cardTitle: "Egyptian Physician Imhotep",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/imhotep.png"
             },
             type: "IMAGE"
           },
@@ -64,7 +63,7 @@ export default function Time() {
           cardTitle: "Code of Hammurabi",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/coh.png"
             },
             type: "IMAGE"
           },
@@ -79,7 +78,7 @@ export default function Time() {
           cardTitle: "Ayurvedic Medicine Appears in India",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/ayu.png"
             },
             type: "IMAGE"
           },
@@ -95,7 +94,7 @@ export default function Time() {
           cardTitle: "Hippocrates Starts Training",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/hipp.png"
             },
             type: "IMAGE"
           },
@@ -110,7 +109,7 @@ export default function Time() {
           cardTitle: "The Framework for Traditional Chinese Medicine",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/hu.png"
             },
             type: "IMAGE"
           },
@@ -125,7 +124,7 @@ export default function Time() {
           cardTitle: "The Birth of Anatomy and Physiology",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/twodude.png"
             },
             type: "IMAGE"
           },
@@ -140,7 +139,7 @@ export default function Time() {
           cardTitle: "The Standard of Women's Health for a Millennium",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/sor.png"
             },
             type: "IMAGE"
           },
@@ -155,7 +154,7 @@ export default function Time() {
           cardTitle: "Galen Returns to Rome",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/ga.png"
             },
             type: "IMAGE"
           },
@@ -171,7 +170,7 @@ export default function Time() {
           cardTitle: "Ayurvedic Translations",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/ac.png"
             },
             type: "IMAGE"
           },
@@ -186,7 +185,7 @@ export default function Time() {
           cardTitle: "Japanese Study in China",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/jc.png"
             },
             type: "IMAGE"
           },
@@ -203,7 +202,7 @@ export default function Time() {
           cardTitle: "Chinese Scholars in India",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/ci.png"
             },
             type: "IMAGE"
           },
@@ -219,7 +218,7 @@ export default function Time() {
           cardTitle: "Medical Translations into Arabic",
           media: {
             source: {
-              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+              url: "/timeline/aca.png"
             },
             type: "IMAGE"
           },
@@ -228,6 +227,40 @@ export default function Time() {
               <p>Various works of 
                 <Link className="text-blue-500 hover:underline" href='/people/Cladius_Galen/info'> Galen</Link> and 
                 <Link className="text-blue-500 hover:underline" href='/misc/Ayurveda/'> Ayurvedic</Link> works are translated into Arabic.</p>
+            </div>
+          )
+        },
+        {
+          title: "1025 CE",
+          cardTitle: "The Canon of Medicine is Completed",
+          media: {
+            source: {
+              url: "/timeline/qft.jpeg"
+            },
+            type: "IMAGE"
+          },
+          cardSubtitle: (
+            <div>
+              <p> 
+                <Link className="text-blue-500 hover:underline" href='/people/Ibn_Sina/info'> Ibn Sina</Link> completes his monumental 
+                <Link className="text-blue-500 hover:underline" href='/work/Qanun_fil_Tib/'> Qanun fil Tib</Link>.</p>
+            </div>
+          )
+        },
+        {
+          title: "1259 CE",
+          cardTitle: "The \"Temple of Paradise\" is Built",
+          media: {
+            source: {
+              url: "/timeline/goraji.png"
+            },
+            type: "IMAGE"
+          },
+          cardSubtitle: (
+            <div>
+              <p>The temple 
+                <Link className="text-blue-500 hover:underline" href='/place/Gokuraku-ji/'> Gokuraku-ji</Link> is founded in Kamakura, Japan, where 
+                <Link className="text-blue-500 hover:underline" href='/people/Kajiwara_Shozen/info'> Kajiwara Shozen</Link> served and started his medical journey.</p>
             </div>
           )
         }
