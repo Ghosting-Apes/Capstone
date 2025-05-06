@@ -6,7 +6,7 @@ import { places } from "@/app/data/mock";
 export default function PlacePage() {
     const params = useParams();
     const slug = decodeURIComponent(params.name as string);
-    const placeName = slug.split("-").join(" ");
+    const placeName = slug.split("_").join(" ");
     
     const place = places.filter(p => p.name === placeName)[0];
 

@@ -7,7 +7,7 @@ import { miscellaneous } from "@/app/data/mock";
 export default function MiscPage() {
     const params = useParams();
     const slug = decodeURIComponent(params.name as string);
-    const miscTitle = slug.split("-").join(" ");
+    const miscTitle = slug.split("_").join(" ");
     
     const misc = miscellaneous.filter(m => m.title === miscTitle)[0];
 

@@ -6,7 +6,7 @@ import { people } from "@/app/data/mock";
 export default function InfoPage() {
     const params = useParams();
     const slug = decodeURIComponent(params.name as string);
-    const formattedName = slug.split('-').join(' ');
+    const formattedName = slug.split('_').join(' ');
 
     const person = people.filter(p => p.name === formattedName)[0];
 
@@ -15,7 +15,7 @@ export default function InfoPage() {
             <div className="flex w-full h-3/4">
                 <div className="flex h-full">
                     <Image 
-                    src={person.url} 
+                    src={person?.url ?? "/people/stock-img.jpg"} 
                     alt="hello" 
                     width={400}
                     height={200}

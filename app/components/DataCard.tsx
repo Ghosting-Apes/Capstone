@@ -13,7 +13,7 @@ export default function DataCard(props: {name: string, caption?: string, imgURL?
     const {name, caption, imgURL, cardType} = props;
 
     const getUrlRoute = () => {
-        const formattedName = name.split(' ').join('-');
+        const formattedName = name.split(' ').join('_');
 
         if (cardType === CardType.Work) {
             return `/work/` + formattedName;

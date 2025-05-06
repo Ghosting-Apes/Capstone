@@ -6,7 +6,7 @@ import { works } from "@/app/data/mock";
 export default function WorkPage() {
     const params = useParams();
     const slug = decodeURIComponent(params.name as string);;
-    const workName = slug.split("-").join(" ");
+    const workName = slug.split("_").join(" ");
 
     const work = works.filter(w => w.title === workName)[0];
 
