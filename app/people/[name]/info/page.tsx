@@ -29,9 +29,9 @@ export default function InfoPage() {
                 </div>
             </div>
             <div className="flex p-2 m-2 w-5/8">
-                <pre style={{ fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
+                <div className="whitespace-pre-wrap font-inherit">
                     {person?.desc}
-                </pre>
+                </div>
             </div>
         </div>
     )
