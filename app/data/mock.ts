@@ -66,21 +66,39 @@ export const miscellaneous: Miscellaneous[] = [
     Diets and herbs were also prescribed as a way to restore the balance of a certain humour.
     
     The system of humourism persisted for around 2000 years until new scientific research and understanding emerged in the 18th century.`,
-    origin: "Mediterranean/Middle East"
+    origin: "Mediterranean/Middle East",
+    url: "/misc/four-humours.jpg"
   },
   {
     title: "Traditional Chinese Medicine",
     caption: "The traditional Chinese medical system",
-    desc: `Traditional Chinese medicine is a medical system rooted in Chinese philosophy. The primary foundation of traditional Chinese medicine comes from the work ***Huangdi Neijing***, a 2000 year old source, set as a discussion between the Yellow Emperor Huang-di and his advisors. The work itself has been edited over time but is still key to traditional practices and procedures performed now.
-The work encompasses a variety of traditional ideas such as yin-yang, zang-fu, the five phases of energy (wu-xing), and the flow of life energy (“qi), as well as discusses diagnostic procedures (checking pulses and the tongue) and treatments (herbal remedies, diets, meditation, exrcise). 
-Yin-yang is a concept that has pervaded Chinese medicine, philosophy, and culture for a millennia, with the central idea of an opposite but complimentary duality. Yin itself is considered watery, cool, dark, passive, and feminine, while yang is dry, hot, bright, active, and masculine.  Both must co-exist, as you cannot have one without having the other. Zang-fu is then a system that assigns body parts to either yin or yang. The zang, or yin, organs are the lungs, heart, liver, spleen, and kidneys, whereas the fu, or yang, viscera are the stomach, intestines, gallbladder, and urinary bladder. The zang organs store up but do not eliminate but the fu viscera eliminate but do not store up.
-Wu-xing is a concept that the five phases of energy (earth, water, fire, wood, and metal) encompass all elements of nature including humans. The five elements can also interact with each other. The generating (sheng) cycle describes how the elements support and create each other; water causes wood to grow, wood burns to make fire, fire creates ash (Earth), earth generates metal to be extracted, and metal can be heated into liquid. The controlling (ke) cycle describes how an element controls another to restrain growth. Water controls fire, which controls metal, which controls wood, which controls earth, which finally controls water. This relationship is also considered a grandmother-grandchild relationship. The overactive (cheng) cycle, then describes how the grandmother element (water) applies to much control on its grandchild element (fire), causing deficient expression of the grandchild. The counteracting (wu) cycle in turn describes how the grandchild element (fire) rebels against the grandmother element (water), “insulting” it; fire flares up and dries out water.  ***Ayurveda*** has a similar system with the idea of the five elements.
-Yin-yang, zang-fu, and wu-xing all interact with each other and affect the flow of qi within the body. Qi flows along channels known as meridians and an imbalance of this flow is what causes disease. Treatments focus on restoring the flow of qi to restore health. ***Acupuncture*** and moxibustion is a technique used to stimulate acupuncture points and meridian channels to help restore the body’s flow of qi.
-Religion forbade mutilation of dead bodies therefore there are no scientific foundations for traditional anatomy. It was not until 1798 CE when dog-torn children who had died in an epidemic were studied, for increased anatomical knowledge.
-Traditional Chinese medicine has also had an influence of medical systems that follow such as ***Kampo***, the traditional Japanese medicine system that was then slightly modified and adopted into Taiwan, and then later exported into the West. Traditional Chinese medicine also differs from other systems like ***traditional Arabic and Islamic medicine***, as it has over 11000 herbal formulas, whereas the latter is typically only based on a single plant species or mixture with a few local species. 
-In the 6th century CE, the physician ***Sun Simiao*** compiled many medical texts listing 1000s of remedies. His work, ***Qianjin Yaofang*** was also seen as the Chinese equivalent of the ***Hippocratic Oath***.
+    desc: `
+    Traditional Chinese medicine is a medical system rooted in Chinese philosophy. The primary foundation of traditional Chinese medicine comes from the work ***Huangdi Neijing***, a 2000 year old source, set as a discussion between the Yellow Emperor Huang-di and his advisors. The work itself has been edited over time but is still key to traditional practices and procedures performed now.
+
+    The work encompasses a variety of traditional ideas such as yin-yang, zang-fu, the five phases of energy (wu-xing), and the flow of life energy (“qi), as well as discusses diagnostic procedures (checking pulses and the tongue) and treatments (herbal remedies, diets, meditation, exrcise). 
+
+    Yin-yang is a concept that has pervaded Chinese medicine, philosophy, and culture for a millennia, with the central idea of an opposite but complimentary duality. Yin itself is considered watery, cool, dark, passive, and feminine, while yang is dry, hot, bright, active, and masculine.  Both must co-exist, as you cannot have one without having the other. Zang-fu is then a system that assigns body parts to either yin or yang. The zang, or yin, organs are the lungs, heart, liver, spleen, and kidneys, whereas the fu, or yang, viscera are the stomach, intestines, gallbladder, and urinary bladder. The zang organs store up but do not eliminate but the fu viscera eliminate but do not store up.
+
+    Wu-xing is a concept that the five phases of energy (earth, water, fire, wood, and metal) encompass all elements of nature including humans. The five elements can also interact with each other. The generating (sheng) cycle describes how the elements support and create each other; water causes wood to grow, wood burns to make fire, fire creates ash (Earth), earth generates metal to be extracted, and metal can be heated into liquid. The controlling (ke) cycle describes how an element controls another to restrain growth. Water controls fire, which controls metal, which controls wood, which controls earth, which finally controls water. This relationship is also considered a grandmother-grandchild relationship. The overactive (cheng) cycle, then describes how the grandmother element (water) applies to much control on its grandchild element (fire), causing deficient expression of the grandchild. The counteracting (wu) cycle in turn describes how the grandchild element (fire) rebels against the grandmother element (water), “insulting” it; fire flares up and dries out water.  ***Ayurveda*** has a similar system with the idea of the five elements.
+
+    Yin-yang, zang-fu, and wu-xing all interact with each other and affect the flow of qi within the body. Qi flows along channels known as meridians and an imbalance of this flow is what causes disease. Treatments focus on restoring the flow of qi to restore health. ***Acupuncture*** and moxibustion is a technique used to stimulate acupuncture points and meridian channels to help restore the body’s flow of qi.
+
+    Religion forbade mutilation of dead bodies therefore there are no scientific foundations for traditional anatomy. It was not until 1798 CE when dog-torn children who had died in an epidemic were studied, for increased anatomical knowledge.
+
+    Traditional Chinese medicine has also had an influence of medical systems that follow such as ***Kampo***, the traditional Japanese medicine system that was then slightly modified and adopted into Taiwan, and then later exported into the West. Traditional Chinese medicine also differs from other systems like ***traditional Arabic and Islamic medicine***, as it has over 11000 herbal formulas, whereas the latter is typically only based on a single plant species or mixture with a few local species. 
+
+    In the 6th century CE, the physician ***Sun Simiao*** compiled many medical texts listing 1000s of remedies. His work, ***Qianjin Yaofang*** was also seen as the Chinese equivalent of the ***Hippocratic Oath***.
 `,
-    origin: "East Asia"
+    origin: "East Asia",
+    url: "/misc/five-elements.png"
+  },
+  {
+    title: "Acupuncture",
+    caption: "Needling",
+    desc: `
+    N/A`,
+    origin: "East Asia",
+    url: "/misc/acupuncture.jpg"
   },
   {
     title: "Ayurveda",
@@ -93,7 +111,36 @@ Another concept found in Ayurvedic medicine is that of the seven “energy cente
 Ayurvedic medicine also has the concept of “digestive fire” (agni). This not only referred the body’s metabolism, but also to the ability to assimilate learning, memories, and the ability to burn waste from the skin or mind. Agni can be influenced by the three doshas or seven chakras. 
 While Ayurvedic medicine has its roots to southern Asia, practice has spread worldwide, especially to those looking for alternative medical therapies.
 `,
-    origin: "South Asia"
+    origin: "South Asia",
+    url: "/misc/ayurveda-chakra.png"
+  },
+  {
+    title: "Kampo",
+    caption: "\"Method from the Han Period\"",
+    desc: `Kampo, which literally translates to “method from the Han period of ancient China (206 BCE – 220 CE) is the traditional herbal medical system of Japan. Before Kampo, Japanese medicine was based on prayers, rituals, and incantations, as evil spirits and the gods were believed to be the cause of ill health. Starting in 608 CE, Japanese physicians were sent to mainland China to study medicine, causing an influx of ***traditional Chinese medicine*** influence on Japanese medicine. By 982 CE, ***Ishinpo*** by ***Tamba Yasuyori*** was completed, which is the oldest surviving Japanese medical work. It was not until the Edo period (1600 CE) for Japanese characteristics to form in Kampo. Works by ***Menase Dosan*** and ***Nagata Tokuhun*** also contributed significantly to Kampo, promoting a holistic understanding of disease beyond symptom management. 
+Kampo has persisted to today with ~50% of Japanese physicians today prescribing some form of Kampo remedy and over 10000 pharmacies in Japan that dispense herbal remedies. Systemic research studies have also started to arise to test the effectiveness of Kampo therapies.
+`,
+    origin: "East Asia",
+    url: "/misc/kampo.png"
+  },
+  {
+    title: "Traditional Arabic and Islamic Medicine",
+    caption: "A Rich Blend of Cultures",
+    desc: `
+    Traditional Arabic and Islamic Medicine is a culmination of centuries of healing practices from many different cultures. Before the advent of Islam, traditional medicine of the Middle East was rooted in ancient Mesopotamian, Egyptian, Greek, and Persian traditions. 
+
+    The ***Code of Hammurabi*** is often regarded as the origin of medicine as a profession and Babylonians believed illness to be a punishment from the gods with its cure as a reward. Assyrians believed that three demons (decay, liver diseases, and abortion/infant death) were responsible for disease, and cures were largely prayer based with a few emetic drugs used to “disgust” the evil spirit causing it to flee.  Ancient Egypt had priest physicians who had knowledge in anatomy, rheumatology, surgery, neurosurgery, and pharmacology. Ancient Iranian medicine has roots in Zoroastrianism, and causes of disease included the demon Ahriman, sin, poor diet, uncontrolled sexual appetite, or the god Ahura Mazda. There also existed three types of practitioners; healers by herbs, healers by surgery, and healers by instruction. The Durustpat (“Masters of Health”) were physicians who practiced preventative medicine, while the Tan Beshazak (“Healers of the Body”) were physicians who practiced clinical medicine, treating disease after it manifests. Little is known about the Arab Peninsula whoever it seems that Arabs knew how to treat septic wounds and ulcers, but also used disinfectants and understood that isolating infected patients could help prevent infectious disease.
+
+    After Islam in the 7th century CE, medicine in the Arab peninsula transformed. One of the foundations of Islam was the pursuit of knowledge and thus the foundation of Islamic science arose during the Abbasid Caliphate with ***Baghdad*** at the center. Many texts were translated into Arabic from Greek, Syriac, and Sanskrit, and many physicians and scientists came to Baghdad. Physicians like ***Al-Razi*** and ***Ibn Sina*** arose further increasing Islamic medical knowledge. 
+
+    During Ottoman times complementing medical systems existed. ***Humourism***, used mostly by the upper class, religious medicine based on the prophetic teachings, used by all classes, and popular medicine not derived from a written tradition, used by the lower class existed. Ottomans also believed in humans being custodians of the natural world and greatly sponsored medical aid and charity for the sick. Many hospitals and public welfare centers were established in the centers of major cities. The Ottomans also believed that physical and mental health were closely related, and built hospitals near mosques, and did not isolate the sick (unless they were a leers patient). To the Ottomans, death was a part of the life cycle and medicine served to do no harm instead of curing all. 
+
+    Traditional Arabic and Islamic medicine also differed from other systems like ***Traditional Chinese Medicine***, ***Ayurveda***, and ***Kampo***, in that herbal remedies were typically based on a single plant species or a mix of few local plant species. These remedies were administered through inhaling the oils from boiling parts of the plant or by ingesting the plant in the form of a juice, syrup, paste, or other form.
+
+    Traditional Arabic and Islamic medicine and other plant based therapies have seen a revival in recent times due to increased costs of chemical drugs and the side effects that come with them.
+`,
+    origin: "Mediterranean/Middle East",
+    url: "/misc/taim.jpg"
   }
 ]
 
@@ -118,7 +165,8 @@ export const works: Works[] = [
     Ibn Sina also had intended for an appendix with his original clinical records, however these were lost, with only an Arabic text surving within a 1593 Roman publication of Qanun fil Tib.
     
     Qanun fil Tib undoubtably left a legacy upon medical learning and knowledge.`,
-    origin: "Mediterranean/Middle East"
+    origin: "Mediterranean/Middle East",
+    url: "/works/qanun.jpg"
   },
   {
     title: "Sushrita Samhita",
@@ -132,7 +180,8 @@ export const works: Works[] = [
     into three volumes by Kaviraj Kunja Lal Bhishagratna.`,
     author: "Sushrita",
     origin: "South Asia",
-    caption: "An Ayurvedic Surgical Collection"
+    caption: "An Ayurvedic Surgical Collection",
+    url: "/works/sush-sam.jpg"
   },
   {
     title: "Ishinpo",
@@ -145,14 +194,29 @@ export const works: Works[] = [
     for Ishinpo to be made known worldwide. Ishinpo is one of the significant texts of ***Kampo***.`,
     author: "Tamba Yasuyori",
     origin: "East Asia",
-    caption: "The Oldest Surviving Medical Text from Japan"
+    caption: "The Oldest Surviving Medical Text from Japan",
+    url: "/works/ishinpo.png"
   },
   {
     title: "Kahun Papyrus",
-    desc: `N/A`,
+    desc: `
+    The Kahun Papyrus is the most important of the medical papyri from which much of our knowledge on ancient Egyptian medicine comes from. The papyrus has different names depending on who financed it, translated it, or where it resides, with the earliest known being the gynecological papyrus (c. 1800 BCE). Other Kahun Papryi include the Edwin Smith (c. 1600 BCE), Ebers (c. 1550 BCE), Heasrt, Erman, London, Brugsch, and Chester Beatty papyri. 
+
+    The Ebers Papyrus is the longest of the bunch and is comprised of hundreds of chants and spells against bad spirits, but also includes many mineral and herbal remedies. The Erdwin Smith Papyrus on the other hand is much more systematic and a surgical treatise, covering 48 case studies. The cases typically start from the head and work down the body with examination, prognosis, and treatment notes.
+`,
     author: "N/A",
     origin: "Mediterranean/Middle East",
-    caption: "The Most Important Medical Papyrus"
+    caption: "The Most Important Medical Papyrus",
+    url: "/works/ebers-papyrus.png"
+  },
+  {
+    title: "Charaka Samhita",
+    desc: `
+    N/A`,
+    author: "Charaka",
+    origin: "South Asia",
+    caption: "TBD",
+    url: "/works/cha-sam.jpg"
   }
 ]
 
@@ -162,7 +226,22 @@ export const places: Places[] = [
     caption: "Temples Dedicated to Asclepios",
     desc: `Asclepions were temples built in dedication to ***Asclepios***, the Greek god of medicine and healing. These temples served as places for people to take refuge in and rest, while also pray and heal. While there are multiple of these temples, the most famous temple
     is located in Epidaurus, where Asclepios was said to be born. This temple was built in the 4th century BCE and is a UNESCO World Heritage Site.`,
-    origin: "Mediterranean/Middle East"
+    origin: "Mediterranean/Middle East",
+    url: "/places/asclepions.jpg"
+  },
+  {
+    name: "Jundi Shapur",
+    caption: "\"Beautiful Garden\"",
+    desc: `N/A`,
+    origin: "Mediterranean/Middle East",
+    url: "/places/jundi.jpg"
+  },
+  {
+    name: "Gokuraku-ji",
+    caption: "TBD",
+    desc: `N/A`,
+    origin: "East Asia",
+    url: "/places/gokurakuji.png"
   }
 ]
 
@@ -171,46 +250,26 @@ export const people: Person[] = [
     name: "Ibn Sina",
     caption: `The Father of Modern Medicine`,
     desc: 
-    `Ibn Sina is one of the most influential doctors from the 11th century. He was a Muslim born in the Samanid Empire (Persia, modern day Uzbekistan)
-    who memorized the Quran before becoming 10 years old. Following one of the teachings of the Quran which was to gain knowledge, started studying medicine
-    at 16 years old and became a court physician at 18 years old. His studies and practice led him to writing his most influential work ***Qanun fil Tib***,
-    a collection of 5 volumes, containing all medical and surgical knowledge known during his time. This was not the only work he had written as he authored 450
-    books including the also influential ***Shefa***. His works were translated and used by medical universities worldwide up until the 17th century. 
-    Ibn Sina learned from the works of earlier physicians like ***Hippocrates***, ***Galen***, and ***Al-Razi***, and furthered medical knowledge. 
+    `
+    Ibn Sina is one of the most influential doctors from the 11th century. He was a Muslim born in the Samanid Empire (Persia, modern day Uzbekistan) who memorized the Quran before becoming 10 years old. Following one of the teachings of the Quran which was to gain knowledge, started studying medicine at 16 years old and became a court physician at 18 years old. His studies and practice led him to writing his most influential work ***Qanun fil Tib***, a collection of 5 volumes, containing all medical and surgical knowledge known during his time. This was not the only work he had written as he authored 450 books including the also influential ***Shefa***. His works were translated and used by medical universities worldwide up until the 17th century. 
 
-    Ibn Sina was one of the first physicians to link mental health and disease. He believed that exhaustian, drug abuse, sexual devations, and congenital factors, 
-    among other things were causes of mental disorders. He believed there was a link between the body and soul and recommended the use of physical exercise and musical therapy 
-    in addition to drugs as a treatment for mental disorders. One of his famous experiments utilized 2 lambs being cared for similarly with the exception of one lamb
-    facing a wolf. The lamb facing the wolf died before the lamb that could not see the wolf, which helped demonstrate the negative effects of stress on health.
-    Ibn Sina further categorized mental disorders into 11 categories, which were sleeping disorders, transient brain dysfunctions,
-    delirium, mental retardation, dementia, corruption of imagination, "dog's disease" (mania), melancholy, qhutrub, love disorder, and uterine suppression. He further described 
-    5 forms of melancholy and 2 forms of mania. 
+    Ibn Sina learned from the works of earlier physicians like ***Hippocrates***, ***Galen***, and ***Al-Razi***, and furthered medical knowledge. Ibn Sina was one of the first physicians to link mental health and disease. He believed that exhaustion, drug abuse, sexual deviations, and congenital factors, among other things were causes of mental disorders. He believed there was a link between the body and soul and recommended the use of physical exercise and musical therapy in addition to drugs as a treatment for mental disorders. One of his famous experiments utilized 2 lambs being cared for similarly with the exception of one lamb facing a wolf. The lamb facing the wolf died before the lamb that could not see the wolf, which helped demonstrate the negative effects of stress on health. Ibn Sina further categorized mental disorders into 11 categories, which were sleeping disorders, transient brain dysfunctions, delirium, mental retardation, dementia, corruption of imagination, "dog's disease" (mania), melancholy, qhutrub, love disorder, and uterine suppression. He further described 5 forms of melancholy and 2 forms of mania. 
 
-    Ibn Sina also made strides towards furthering anatomical knowledge. He was the first physician to find the stomach in the left side of the abdominal cavity. He was also the first to prove
-    that the clavicle (collarbone) was only found in humans. He also specified the position of the heart to the left side of the chest, unlike Galen who assumed it to be
-    central, but also accuratley describe the function of the aortic and atrioventricular valves of the heart. Ibn Sina further described the spinal cord to be a continuation of the brain and contained sensory and motor fibers. He was also able to accuratelty distinguish the functions of
-    smooth and skeletal muscles. He was also able to describe the muscles of the eye and to determine the presence of "fertile" and "infertile" fluid from the testicles. He also is also considered
-    one of the founders of pediatrics as he noted differences in peculiarities of the child's body compared to that of adults. 
+    Ibn Sina also made strides towards furthering anatomical knowledge. He was the first physician to find the stomach in the left side of the abdominal cavity. He was also the first to prove that the clavicle (collarbone) was only found in humans. He also specified the position of the heart to the left side of the chest, unlike Galen who assumed it to be central, but also accurately describe the function of the aortic and atrioventricular valves of the heart. Ibn Sina further described the spinal cord to be a continuation of the brain and contained sensory and motor fibers. He was also able to accurately distinguish the functions of smooth and skeletal muscles. He was also able to describe the muscles of the eye and to determine the presence of "fertile" and "infertile" fluid from the testicles. He also is also considered one of the founders of pediatrics as he noted differences in peculiarities of the child's body compared to that of adults. Ibn Sina also contributed to the field of surgery. He routinely removed bullets, stones, and tumors. He also invented catheters with rounded tips and side holes from animal skin, which allowed for gentle procedures for his patients facing urinary disturbances. He was also the first to describe the antiseptic properties of alcohol, which became commonly used in medieval Europe and is still a common antiseptic used today.
 
-    Ibn Sina also contributed to the field of surgery. He routinely removed bullets, stones, and turmors. He also invented catheters with rounded tips and side holes from animal skin, 
-    which allowed for gentle procedures for his patients facing urinary disturbances. He was also the first to describe the antiseptic properties of alcohol, which became commonly used in
-    medieval Europe and is still a common antiseptic used today.
+    Infectiology was yet another field that Ibn Sina contributed to. He described the existence of "small-disease causing creatures”, and concluded measles, smallpox, and the plague to be of infectious origin. He recommended quarantining of the sick, which is a technique still used in modern hospitals today. 
 
-    Infectiology was yet another field that Ibn Sina contributed to. He described the existance of "small-disease causing creatures, and concluded measles, smallpox, and the plague to be of infectious origin.
-    He recommended quarantining of the sick, which is a technique still used in modern hospitals today.
+    Ibn Sina also used drugs and herbal remedies as a part of his treatments. He understood how inflammation could occur before or after and infection and described the anti-inflammatory properties of saffron. He had around 30 remedies to treat/manage depression alone. He also provided a method for testing the effectiveness of drugs as he believed the quality of the drug needed to match the severity of the disease. He also believed that the same trials needed to provide similar results to that the effects of the drugs were consistent. 
 
-    Ibn Sina also used drugs and herbal remedies as a part of his treatments. He understood how inflammation could occur before or anfter and infection and described the anti-inflammatory properties of saffron.
-    He had around 30 remedies to treat/manage depression alone. He also provided a method for testing the effectiveness of drugs as he believed the quality of the drug
-    needed to match the severity of the disease. He also believed that the same trials needed to provide similar results to that the effects of the drugs were consistent.
-
-    Ibn Sina was a prolific writer and philosopher, who discussed mathematics, geometry, astronomy, physics, and more, but his contributions to medicine were truly monumental.`,
+    Ibn Sina was a prolific writer and philosopher, who discussed mathematics, geometry, astronomy, physics, and more, but his contributions to medicine were truly monumental.
+`,
     data: {
       age: 57,
       birthday: "c. 980 CE",
       yearRange: {start: 980, end: 1037},
       origin: "Mediterranean/Middle East"
     },
-    url: "https://i0.wp.com/oxsci.org/wp-content/uploads/2019/11/IbnSina_2.png?w=1336&ssl=1"
+    url: "/people/ibn sina.png"
   },
   {
     name: "Al-Razi",
@@ -222,13 +281,15 @@ export const people: Person[] = [
       yearRange: {start: 865, end: 925},
       origin: "Mediterranean/Middle East"
     },
-    url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Imhotep.svg/250px-Imhotep.svg.png"
+    url: "/people/alrazi.png"
   },
   {
     name: "Imhotep",
     caption: "The Deified Egyptian Architect and Physician",
-    desc: `Imhotep was an architect and the leader of the priest physicians in Ancient Egypt. He was active during the 27th century BCE and was the foremost medical figure of the time. He was later deified (c. 525BCE) as he was believed to be the son of the ancient Egyptian goddess of healing, Sekhmet, and was continued to be worshipped even after ancient Egyptian civilization faded, for the ancient Greeks associated him with ***Asclepios*** the god of healing.
-Although historians are uncertain of his actual role; he may have actually dispensed herbs as treatment or was the leader of the physicians and claimed the credit. Some also attribute him credit to authoring the original work of which the Edwin Smith Papyrus from the ***Kahun Papyrus*** adapted.
+    desc: `
+    Imhotep was an architect and the leader of the priest physicians in Ancient Egypt. He was active during the 27th century BCE and was the foremost medical figure of the time. He was later deified (c. 525BCE) as he was believed to be the son of the ancient Egyptian goddess of healing, Sekhmet, and was continued to be worshipped even after ancient Egyptian civilization faded, for the ancient Greeks associated him with ***Asclepios*** the god of healing.
+
+    Although historians are uncertain of his actual role; he may have actually dispensed herbs as treatment or was the leader of the physicians and claimed the credit. Some also attribute him credit to authoring the original work of which the Edwin Smith Papyrus from the ***Kahun Papyrus*** adapted.
 `,
     data: {
       age: 0,
@@ -241,8 +302,10 @@ Although historians are uncertain of his actual role; he may have actually dispe
   {
     name: 'Asclepios',
     caption: "Greek God of Medicine",
-    desc: `Asclepios is the Greek god of healing and medicine. His symbol is the Rod of Asclepios which is a staff with a snake coiled around it. Some trace the origins of this symbol and Asclepios himself back to the ancient Egyptian ***Imhotep***, who was deified as the Egyptian god of medicine. Temples dedicated to Asclepios are known as ***Asclepions***. 
-Asclepios was a part of early Greek medicine, which was highly influenced by ancient Egyptian medicine, with the belief of spirits and the supernatural. Prayers and rituals were offered to Asclepios as gifts to him by the sick in hopes of being cured. 
+    desc: `
+    Asclepios is the Greek god of healing and medicine. His symbol is the Rod of Asclepios which is a staff with a snake coiled around it. Some trace the origins of this symbol and Asclepios himself back to the ancient Egyptian ***Imhotep***, who was deified as the Egyptian god of medicine. Temples dedicated to Asclepios are known as ***Asclepions***. 
+
+    Asclepios was a part of early Greek medicine, which was highly influenced by ancient Egyptian medicine, with the belief of spirits and the supernatural. Prayers and rituals were offered to Asclepios as gifts to him by the sick in hopes of being cured. 
 `,
     data: {
       age: 0,
@@ -277,7 +340,7 @@ Asclepios was a part of early Greek medicine, which was highly influenced by anc
     url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Claudius_Galenus_%281906%29_-_Veloso_Salgado.png/250px-Claudius_Galenus_%281906%29_-_Veloso_Salgado.png"
   },
   {
-    name: 'Kajiwara Shōzen',
+    name: 'Kajiwara Shozen',
     caption: "Buddhist Priest and Clinical Physician",
     desc: `N/A`,
     data: {
@@ -286,15 +349,19 @@ Asclepios was a part of early Greek medicine, which was highly influenced by anc
       yearRange: {start: 1265, end: 1337},
       origin: "East Asia"
     },
-    url: "https://muse.jhu.edu/book/1740/image/front_cover?format=largecover"
+    url: "/people/kojiwara.jpg"
   },
   {
     name: 'Sushruta',
     caption: "The \"Renowned\" Indian Surgeon",
-    desc: `Sushruta was an Indian surgeon likely active in the 6th century BCE, to which the major ***Avurvedic*** work ***Sushruta Samhita***. Very little is known about his life and his name is an epithet meaning “renowned”. He is also believed to be a contemporary to ***Charaka*** or having come slightly after. 
-During Sushruta's time, surgery was being practiced in India, however he greatly advanced surgery. He was specialized in rhinoplasty and developed techniques like using an ant’s head to sew sutures. He also attracted many disciples, who he required six years of study before allowing them to begin training hands on, and had them taking an oath similar to that of the ***Hippocratic Oath***. 
-Sushruta had a holistic view of medicine, emphasizing the entire patient and not just the present symptoms. 
-He has made significant contributions to Ayurvedic medicine but also to modern medical thought.
+    desc: `
+    Sushruta was an Indian surgeon likely active in the 6th century BCE, to which the major ***Avurvedic*** work ***Sushruta Samhita***. Very little is known about his life and his name is an epithet meaning “renowned”. He is also believed to be a contemporary to ***Charaka*** or having come slightly after. 
+
+    During Sushruta's time, surgery was being practiced in India, however he greatly advanced surgery. He was specialized in rhinoplasty and developed techniques like using an ant’s head to sew sutures. He also attracted many disciples, who he required six years of study before allowing them to begin training hands on, and had them taking an oath similar to that of the ***Hippocratic Oath***. 
+
+    Sushruta had a holistic view of medicine, emphasizing the entire patient and not just the present symptoms. 
+
+    He has made significant contributions to Ayurvedic medicine but also to modern medical thought.
 `,
     data: {
       age: 0,
@@ -302,6 +369,35 @@ He has made significant contributions to Ayurvedic medicine but also to modern m
       yearRange: {start: -600, end: -501},
       origin: "South Asia"
     },
-    url: "https://muse.jhu.edu/book/1740/image/front_cover?format=largecover"
-  }
+    url: "/people/sushruta.jpg"
+  },
+  {
+    name: 'Charaka',
+    caption: "TBD",
+    desc: `
+    TBD
+`,
+    data: {
+      age: 10000000,
+      birthday: "60000000 BCE",
+      yearRange: {start: -60000000000, end: -501},
+      origin: "South Asia"
+    },
+    url: "/people/cha.jpg"
+  },
+  {
+    name: 'Menase Dosan',
+    caption: "TBD",
+    desc: `
+    TBD
+`,
+    data: {
+      age: 10000000,
+      birthday: "60000000 BCE",
+      yearRange: {start: -60000000000, end: -501},
+      origin: "East Asia"
+    },
+    url: "/people/menase.png"
+  },
+  
 ]
