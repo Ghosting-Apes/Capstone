@@ -143,6 +143,17 @@ export default function Time() {
           cardSubtitle: "Scholars began translating ***Ayurvedic*** works into Chinese",
         },
         {
+          title: "608 CE",
+          cardTitle: "Japanese Study in China",
+          media: {
+            source: {
+              url: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Achillea_millefolium_%28bright%29.jpg/250px-Achillea_millefolium_%28bright%29.jpg"
+            },
+            type: "IMAGE"
+          },
+          cardSubtitle: "Japanese physicians begin to be sent to China for study, leaving a heavy influence of ***traditional Chinese medicine*** upon ***Kampo***.",
+        },
+        {
           title: "700 CE",
           cardTitle: "Chinese Scholars in India",
           media: {

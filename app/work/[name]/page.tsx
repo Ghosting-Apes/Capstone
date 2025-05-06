@@ -23,7 +23,7 @@ export default function WorkPage() {
                     </div>
                     <div className="ml-10 p-10 w-full">
                         <h1 className="font-bold text-2xl mb-8">{workName}</h1>
-                        <p><span className="font-semibold">Author:</span> {"no-author"}</p>
+                        <p><span className="font-semibold">Author:</span> {work?.author || "no-author"}</p>
                         <p><span className="font-semibold">Region:</span> {work?.origin}</p>
                     </div>
                 </div>
