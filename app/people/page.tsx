@@ -27,7 +27,7 @@ export default function People() {
       else {
         return peopleCards.filter(p => p.name.toLowerCase().includes(search.toLowerCase()))
         .sort((a, b) => a.data.yearRange.start - b.data.yearRange.start)
-        .map((p, idx)=> <DataCard key={idx} name={p.name} caption={p.desc} imgURL={p.url} cardType={CardType.Person}  />)
+        .map((p, idx)=> <DataCard key={idx} name={p.name} caption={p.caption} imgURL={p.url} cardType={CardType.Person}  />)
       }
   }
 
