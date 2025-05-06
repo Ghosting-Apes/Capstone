@@ -17,7 +17,7 @@ export default function MiscPage() {
                 <div className="flex w-full">
                     <div className="flex h-full">
                         <Image 
-                        src={misc.url || "/misc/stock-img.jpg"} 
+                        src={misc?.url || "/misc/stock-img.jpg"} 
                         alt="hello" 
                         width={400}
                         height={200} />

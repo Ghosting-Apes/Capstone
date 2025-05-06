@@ -17,7 +17,7 @@ export default function PlacePage() {
                 <div className="flex w-full">
                     <div className="flex h-full">
                         <Image 
-                        src={place.url || "/places/stock-img.jpg"} 
+                        src={place?.url || "/places/stock-img.jpg"} 
                         alt="hello" 
                         width={400}
                         height={200} />

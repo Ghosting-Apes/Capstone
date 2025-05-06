@@ -1,5 +1,6 @@
 "use client"
 import dynamic from 'next/dynamic';
+import Link from 'next/link';
 
 const Chrono = dynamic(() => import('react-chrono').then(mod => mod.Chrono), {
   ssr: false,
@@ -52,7 +53,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "The ancient Egyptian architect and physician ***Imhotep*** is active. He eventually becomes the leading priest-physician. He also is later elevated to a god status.",
+          cardSubtitle:  (
+            <div>
+              <p>The ancient Egyptian architect and physician <Link className="text-blue-500 hover:underline" href='/people/Imhotep/info'>Imhotep</Link> is active. He eventually becomes the leading priest-physician. He also is later elevated to a god status.</p>
+            </div>
+          )
         },
         {
           title: "1755 BCE",
@@ -63,7 +68,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "The ***Code of Hammurabi*** is regarded as the origin of medicine as a profession with several clauses containing rules and regulations for physicians.",
+          cardSubtitle:  (
+            <div>
+              <p>The <Link className="text-blue-500 hover:underline" href='/work/Code_of_Hammurabi/'>Code of Hammurabi</Link> is regarded as the origin of medicine as a profession with several clauses containing rules and regulations for physicians.</p>
+            </div>
+          )
         },
         {
           title: "500 BCE",
@@ -74,7 +83,12 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "An early version of ***Susruta Samhita***, one of the two major works forming the basis of ***Ayurveda*** arises in India.",
+          cardSubtitle: (
+            <div>
+              <p>An early version of <Link className="text-blue-500 hover:underline" href='/work/Sushrita_Samhita/'>Sushrita Samhita</Link>, one of the two major works forming 
+              the basis of <Link className="text-blue-500 hover:underline" href='/misc/Ayurveda/'>Ayurveda</Link> arises in India.</p>
+            </div>
+          )
         },
         {
           title: "440 BCE",
@@ -85,7 +99,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "One of the most famous physicians, ***Hipoocrates***, begins his medical training at his local ***Asclepeion***.",
+          cardSubtitle: (
+            <div>
+              <p>One of the most famous physicians, <Link className="text-blue-500 hover:underline" href='/people/Hippocrates_of_Kos/info'>Hippocrates</Link>, begins his medical training at his local <Link className="text-blue-500 hover:underline" href='/place/Asclepeions/'>Asclepeions</Link>.</p>
+            </div>
+          )
         },
         {
           title: "400 BCE",
@@ -96,7 +114,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "The classical text ***Huangdi Neijing*** establishes the framework for ***traditional Chinese medicine***.",
+          cardSubtitle: (
+            <div>
+              <p>The classical text <Link className="text-blue-500 hover:underline" href='/work/Huangdi_Neijing/'>Huangdi Neijing</Link> establishes the framework for <Link className="text-blue-500 hover:underline" href='/misc/Traditional_Chinese_Medicine/'>traditional Chinese medicine</Link>.</p>
+            </div>
+          )
         },
         {
           title: "260 BCE",
@@ -107,7 +129,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "***Herophilus of Chalcedon*** along with ***Erasistratus of Ceos*** dissect and study human bodies in ***Alexandria***.",
+          cardSubtitle: (
+            <div>
+              <p>Herophilus of Chalcedon along with Erasistratus of Ceos dissect and study human bodies in Alexandria.</p>
+            </div>
+          )
         },
         {
           title: "130 CE",
@@ -118,7 +144,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "Greek physician ***Soranus of Ephesus*** writes ***Gynaecology***, one of his works that set the standard of women's health and infant care.",
+          cardSubtitle: (
+            <div>
+              <p>Greek physician Soranus of Ephesus writes Gynaecology, one of his works that set the standard of women's health and infant care.</p>
+            </div>
+          )
         },
         {
           title: "169 CE",
@@ -129,7 +159,12 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "Greek physician ***Cladius Galen*** returns from ***Pergamon*** to ***Rome*** giving anatomical demonstrations and writing his medical treatises.",
+          cardSubtitle: (
+            <div>
+              <p>Greek physician <Link className="text-blue-500 hover:underline" href='/people/Cladius_Galen/info'>Cladius Galen</Link> returns from 
+              Pergamon to Rome giving anatomical demonstrations and writing his medical treatises.</p>
+            </div>
+          ),
         },
         {
           title: "400 CE",
@@ -140,7 +175,11 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "Scholars began translating ***Ayurvedic*** works into Chinese",
+          cardSubtitle: (
+            <div>
+              <p>Scholars began translating <Link className="text-blue-500 hover:underline" href='/misc/Ayurveda/'>Ayurvedic</Link> works into Chinese.</p>
+            </div>
+          ),
         },
         {
           title: "608 CE",
@@ -151,7 +190,13 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "Japanese physicians begin to be sent to China for study, leaving a heavy influence of ***traditional Chinese medicine*** upon ***Kampo***.",
+          cardSubtitle: (
+            <div>
+              <p>Japanese physicians begin to be sent to China for study, leaving a heavy influence of 
+                <Link className="text-blue-500 hover:underline" href='/misc/Traditional_Chinese_Medicine/'> traditional Chinese medicine</Link> upon 
+                <Link className="text-blue-500 hover:underline" href='/misc/Kampo/'> Kampo</Link>.</p>
+            </div>
+          ),
         },
         {
           title: "700 CE",
@@ -162,7 +207,12 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "Chinese scholars come to study medicine at ***Nalanda University*** in India.",
+          cardSubtitle: (
+            <div>
+              <p>Chinese scholars come to study medicine at 
+                <Link className="text-blue-500 hover:underline" href='/place/Nalanda_University/'> Nalanda University</Link> in India.</p>
+            </div>
+          )
         },
         {
           title: "800 CE",
@@ -173,7 +223,13 @@ export default function Time() {
             },
             type: "IMAGE"
           },
-          cardSubtitle: "Various works of ***Galen*** and ***Ayurvedic*** works are translated into Arabic.",
+          cardSubtitle: (
+            <div>
+              <p>Various works of 
+                <Link className="text-blue-500 hover:underline" href='/people/Cladius_Galen/info'> Galen</Link> and 
+                <Link className="text-blue-500 hover:underline" href='/misc/Ayurveda/'> Ayurvedic</Link> works are translated into Arabic.</p>
+            </div>
+          )
         }
       ]}
       mode="VERTICAL_ALTERNATING" />

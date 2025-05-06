@@ -16,7 +16,7 @@ export default function WorkPage() {
                 <div className="flex w-full">
                     <div className="flex h-full">
                         <Image 
-                        src={work.url || "/works/stock-img.jpg"} 
+                        src={work?.url || "/works/stock-img.jpg"} 
                         alt="hello" 
                         width={400}
                         height={200} />
