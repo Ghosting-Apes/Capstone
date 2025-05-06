@@ -23,7 +23,6 @@ export default function InfoPage() {
                 </div>
                 <div className="ml-10 p-10 w-full">
                     <h1 className="font-bold text-2xl mb-8">{formattedName}</h1>
-                    <p><span className="font-semibold">Full Name:</span> {formattedName}</p>
                     <p><span className="font-semibold">Age:</span> {person?.data?.age}</p>
                     <p><span className="font-semibold">Birthday:</span> {person?.data?.birthday}</p>
                     <p><span className="font-semibold">Region:</span> {person?.data?.origin}</p>
