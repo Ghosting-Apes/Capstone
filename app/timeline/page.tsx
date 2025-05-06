@@ -85,7 +85,7 @@ export default function Time() {
           },
           cardSubtitle: (
             <div>
-              <p>An early version of <Link className="text-blue-500 hover:underline" href='/work/Sushrita_Samhita/'>Sushrita Samhita</Link>, one of the two major works forming 
+              <p>An early version of <Link className="text-blue-500 hover:underline" href='/work/Sushruta_Samhita/'>Sushruta Samhita</Link>, one of the two major works forming 
               the basis of <Link className="text-blue-500 hover:underline" href='/misc/Ayurveda/'>Ayurveda</Link> arises in India.</p>
             </div>
           )

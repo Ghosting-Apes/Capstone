@@ -59,7 +59,7 @@ export const miscellaneous: Miscellaneous[] = [
 },
 {
   title: "Traditional Chinese Medicine",
-  caption: "The traditional Chinese medical system",
+  caption: "The Traditional Chinese Medical System",
   desc: `
   Traditional Chinese medicine is a medical system rooted in Chinese philosophy. The primary foundation of traditional Chinese medicine comes from the work ***Huangdi Neijing***, a 2000 year old source, set as a discussion between the Yellow Emperor Huang-di and his advisors. The work itself has been edited over time but is still key to traditional practices and procedures performed now.
 
@@ -100,7 +100,9 @@ export const miscellaneous: Miscellaneous[] = [
   caption: "A Physicians Pledge",
   desc: `
   The Hippocratic Oath is the oldest and most widely known treatise on medical ethics used. Its origins are from ***Hippocrates*** who made his new students swear by an oath to their peers and seniors that they will obey their duties as physicians to their patients. The Hippocratic Oath has been revised over time removing aspects like swearing to various Greek gods and changes to the view of abortions.
-The following is the Classical Hippocratic Oath:
+
+  The following is the Classical Hippocratic Oath:
+
 "I swear by Apollo the physician, and Aesculapius the surgeon, likewise Hygeia and Panacea, and call all the gods and goddesses to witness, that I will observe and keep this underwritten oath, to the utmost of my power and judgment.
 I will reverence my master who taught me the art. Equally with my parents, will I allow him things necessary for his support, and will consider his sons as brothers. I will teach them my art without reward or agreement; and I will impart all my acquirement, instructions, and whatever I know, to my master's children, as to my own; and likewise to all my pupils, who shall bind and tie themselves by a professional oath, but to none else.
 With regard to healing the sick, I will devise and order for them the best diet, according to my judgment and means; and I will take care that they suffer no hurt or damage.
@@ -112,6 +114,7 @@ Whatever, in the course of my practice, I may see or hear (even when not invited
 If I faithfully observe this oath, may I thrive and prosper in my fortune and profession, and live in the estimation of posterity; or on breach thereof, may the reverse be my fate!"
 
 Many revisions have occurred and the following is the 1964 Dr. Louis Lasagna revision, that is widely accepted in many medical schools:
+
 "I swear to fulfill, to the best of my ability and judgment, this covenant: 
 I will respect the hard-won scientific gains of those physicians in whose steps I walk, and gladly share such knowledge as is mine with those who are to follow. 
 I will apply, for the benefit of the sick, all measures [that] are required, avoiding those twin traps of overtreatment and therapeutic nihilism. 
@@ -202,7 +205,7 @@ export const works: Works[] = [
   url: "/works/qanun.jpg"
 },
 {
-  title: "Sushrita Samhita",
+  title: "Sushruta Samhita",
   desc: `
   The Sushruta Samhita forms one of the main basis of ***Ayurvedic*** medicine and is attributed to the Indian surgeon ***Sushruta***. Samhita means collection/compilation and the Sushruta Samhita contains information about Ayurvedic surgery (shalya chikitsa), teeth extractions, cyst draining, cataract removal, hernia repair, setting broken bones, cauterizing hemorrhoids, and Samhitas specialty, rhinoplasty, to name a few. The collection contains over 300 surgical procedures and 120 surgical tools, but also has over 1000 diseases and injuries along with more than 700 herbal remedies.
 
@@ -240,10 +243,13 @@ export const works: Works[] = [
 {
   title: "Charaka Samhita",
   desc: `
-  N/A`,
+  The Charaka Samhita forms one of the main basis of ***Ayurvedic*** medicine as is attributed to the Indian physician Charaka. Samhita means collection/compilation and the Charaka Samhita contains 110 chapters divided into 8 sections with instructions of how a physician should examine patients and make their diagnosis, similar to the teachings of ***Hippocrates***. The collection also contains recommended treatments including remedies that emphasize lifestyle, hygiene, exercise, and diet changes. Herbal/mineral based medicine are also included. The work is written in verse to aid its readers in memorization. 
+
+  The Charaka Samhita has been adapted in other works, along with the ***Sushruta Samhita***, such as into Ashtanga Hridayam.
+`,
   author: "Charaka",
   origin: "South Asia",
-  caption: "TBD",
+  caption: "An Ayurvedic Mediacl Collection",
   url: "/works/cha-sam.jpg"
 },
 {
@@ -284,15 +290,23 @@ export const places: Places[] = [
 },
 {
   name: "Gokuraku-ji",
-  caption: "TBD",
-  desc: `N/A`,
+  caption: "The Temple of Paradise",
+  desc: `
+  Gokuraku-ji, often regarded as the “Temple of Paradise” is a prominent Buddhist institution in Kamakura, Japan, and was founded in 1259 CE, a time of the warrior government. The valley in which is stands was called “Hell Valley” as during ancient times, corpses of the deceased were abandoned there. 
+
+  The temple served as a way to transform the once feared “Hell Valley” into a location of healing and hope. The temple transformed not only into a place of Buddhist prayer, but a place of education and free medical care to those in need. Japanese physicians like ***Kajiwara Shozen*** served here helping to shape his approach to medicine.
+`,
   origin: "East Asia",
   url: "/places/gokurakuji.png"
 },
 {
   name: "Nalanda University",
-  caption: "TBD",
-  desc: `N/A`,
+  caption: "A Historic Indian University",
+  desc: `
+  Nalanda is a historic university in India, founded in 427 CE, and a hub for students from East and South Asia, who gathered to study medicine, among other topics. Nalanda is considered the first residential university. ***Ayurveda*** was extensively taught, which was spread by alumni to other parts of India.
+
+  Chinese physicians came to Nalanda to study and brought back with them their new knowledge. This knowledge was later imported to Japan by Japanese students in China.
+`,
   origin: "South Asia",
   url: "/places/nalanda.jpg"
 }
