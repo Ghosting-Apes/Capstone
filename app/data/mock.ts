@@ -23,19 +23,22 @@ export interface Works {
   caption: string,
   origin: string,
   author?: string,
+  url?: string,
 }
 
 export interface Places {
   name: string,
   desc: string,
   caption: string,
-  origin: string
+  origin: string,
+  url?: string
 }
 export interface Miscellaneous {
   title: string,
   desc: string,
   caption: string,
-  origin: string
+  origin: string,
+  url?: string
 }
 
 export const miscellaneous: Miscellaneous[] = [
@@ -113,16 +116,12 @@ export const people: Person[] = [
     name: "Ibn Sina",
     caption: `The Father of Modern Medicine`,
     desc: 
-`Ibn Sina is one of the most influential doctors from the 11th century. He was a Muslim born in the Samanid Empire (Persia, modern day Uzbekistan)
-who memorized the Quran before becoming 10 years old. Following one of the teachings of the Quran which was to gain knowledge, started studying medicine
-at 16 years old and became a court physician at 18 years old. His studies and practice led him to writing his most influential work ***Qanun fil Tib***,
-a collection of 5 volumes, containing all medical and surgical knowledge known during his time. This was not the only work he had written as he authored 450
+`Ibn Sina is one of the most influential doctors from the 11th century. He was a Muslim born in the Samanid Empire (Persia, modern day Uzbekistan) who memorized the Quran before becoming 10 years old. Following one of the teachings of the Quran which was to gain knowledge, started studying medicine
+at 16 years old and became a court physician at 18 years old. His studies and practice led him to writing his most influential work ***Qanun fil Tib***, a collection of 5 volumes, containing all medical and surgical knowledge known during his time. This was not the only work he had written as he authored 450
 books including the also influential ***Shefa***. His works were translated and used by medical universities worldwide up until the 17th century. 
 Ibn Sina learned from the works of earlier physicians like ***Hippocrates***, ***Galen***, and ***Al-Razi***, and furthered medical knowledge. 
 
-Ibn Sina was one of the first physicians to link mental health and disease. He believed that exhaustian, drug abuse, sexual devations, and congenital factors, 
-among other things were causes of mental disorders. He believed there was a link between the body and soul and recommended the use of physical exercise and musical therapy 
-in addition to drugs as a treatment for mental disorders. One of his famous experiments utilized 2 lambs being cared for similarly with the exception of one lamb
+Ibn Sina was one of the first physicians to link mental health and disease. He believed that exhaustian, drug abuse, sexual devations, and congenital factors,  among other things were causes of mental disorders. He believed there was a link between the body and soul and recommended the use of physical exercise and musical therapy  in addition to drugs as a treatment for mental disorders. One of his famous experiments utilized 2 lambs being cared for similarly with the exception of one lamb
 facing a wolf. The lamb facing the wolf died before the lamb that could not see the wolf, which helped demonstrate the negative effects of stress on health.
 Ibn Sina further categorized mental disorders into 11 categories, which were sleeping disorders, transient brain dysfunctions,
 delirium, mental retardation, dementia, corruption of imagination, "dog's disease" (mania), melancholy, qhutrub, love disorder, and uterine suppression. He further described 

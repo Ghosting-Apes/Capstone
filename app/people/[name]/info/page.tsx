@@ -12,10 +12,10 @@ export default function InfoPage() {
 
     return (
         <div className="flex flex-col w-full h-1/2 items-center p-8 ">
-            <div className="flex w-full">
+            <div className="flex w-full h-3/4">
                 <div className="flex h-full">
                     <Image 
-                    src={"https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs="} 
+                    src={person.url} 
                     alt="hello" 
                     width={400}
                     height={200}
@@ -23,13 +23,15 @@ export default function InfoPage() {
                 </div>
                 <div className="ml-10 p-10 w-full">
                     <h1 className="font-bold text-2xl mb-8">{formattedName}</h1>
-                    <p><span className="font-semibold">Age:</span> {person?.data?.age}</p>
-                    <p><span className="font-semibold">Birthday:</span> {person?.data?.birthday}</p>
+                    {person?.data?.age !== 0 && <p><span className="font-semibold">Age:</span> {person?.data?.age}</p>}
+                    {person?.data?.birthday !== "N/A" && <p><span className="font-semibold">Birthday:</span> {person?.data?.birthday}</p>}
                     <p><span className="font-semibold">Region:</span> {person?.data?.origin}</p>
                 </div>
             </div>
-            <div className="flex p-2 m-2 w-full">
-                {person?.desc}
+            <div className="flex p-2 m-2 w-5/8">
+                <pre style={{ fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
+                    {person?.desc}
+                </pre>
             </div>
         </div>
     )

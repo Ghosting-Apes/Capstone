@@ -16,7 +16,7 @@ export default function WorkPage() {
                 <div className="flex w-full">
                     <div className="flex h-full">
                         <Image 
-                        src={"https://media.istockphoto.com/id/539115110/photo/colosseum-in-rome-and-morning-sun-italy.jpg?s=612x612&w=0&k=20&c=9NtFxHI3P2IBWRY9t0NrfPZPR4iusHmVLbXg2Cjv9Fs="} 
+                        src={work.url || "/works/stock-img.jpg"} 
                         alt="hello" 
                         width={400}
                         height={200} />
@@ -27,9 +27,11 @@ export default function WorkPage() {
                         <p><span className="font-semibold">Region:</span> {work?.origin}</p>
                     </div>
                 </div>
-                <div className="flex p-2 m-2 w-full">
+                <div className="flex p-2 m-2 w-5/8">
+                <pre style={{ fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
                     {work?.desc}
-                </div>
+                </pre>
+            </div>
             </div>
         </div>
     )
