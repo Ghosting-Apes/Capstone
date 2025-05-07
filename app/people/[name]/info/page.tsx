@@ -33,7 +33,7 @@ export default function InfoPage() {
                     {person?.desc}
                 </div>
                 <div>
-                    <h1 className="font-bold">References: {person?.references?.map(r => `${r}`).join(',')}</h1>
+                    <h1 className="font-bold">References: {person?.references?.map(r => `${r}`).join(', ')}</h1>
                 </div>
             </div>
         </div>

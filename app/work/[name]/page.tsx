@@ -32,7 +32,7 @@ export default function WorkPage() {
                     {work?.desc}
                 </pre>
                 <div>
-                    <h1 className="font-bold">References: {work?.references?.map(r => `${r}`).join(',')}</h1>
+                    <h1 className="font-bold">References: {work?.references?.map(r => `${r}`).join(', ')}</h1>
                 </div>
             </div>
             </div>

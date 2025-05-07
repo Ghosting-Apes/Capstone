@@ -72,6 +72,7 @@ export const miscellaneous: Miscellaneous[] = [
   </>
   ),
   origin: "Mediterranean/Middle East",
+  references: [6, 7, 15, 19, 20],
   url: "/misc/four-humours.jpg"
 },
 {
@@ -113,6 +114,7 @@ export const miscellaneous: Miscellaneous[] = [
     </>
   ),
   origin: "East Asia",
+  references: [2, 4, 15, 19, 21],
   url: "/misc/five-elements.png"
 },
 {
@@ -131,6 +133,7 @@ export const miscellaneous: Miscellaneous[] = [
 
   ),
   origin: "East Asia",
+  references: [15, 19],
   url: "/misc/acupuncture.jpg"
 },
 {
@@ -168,6 +171,7 @@ May I always act so as to preserve the finest traditions of my calling and may I
     </>
   ),
   origin: "Mediterranean/Middle East",
+  references: [14, 15, 19],
   url: "/misc/hippoath.jpg"
 },
 {
@@ -192,6 +196,7 @@ May I always act so as to preserve the finest traditions of my calling and may I
 
   ),
   origin: "South Asia",
+  references: [1, 2, 12, 15, 19],
   url: "/misc/ayurveda-chakra.png"
 },
 {
@@ -206,6 +211,7 @@ May I always act so as to preserve the finest traditions of my calling and may I
 
   ),
   origin: "East Asia",
+  references: [2, 21],
   url: "/misc/kampo.png"
 },
 {
@@ -227,6 +233,7 @@ May I always act so as to preserve the finest traditions of my calling and may I
   </>
   ),
   origin: "Mediterranean/Middle East",
+  references: [2, 6, 10, 15, 17, 19],
   url: "/misc/taim.jpg"
 }
 ]
@@ -260,6 +267,7 @@ export const works: Works[] = [
 </>
   ),
   origin: "Mediterranean/Middle East",
+  references: [5, 10, 15, 19],
   url: "/works/qanun.jpg"
 },
 {
@@ -277,6 +285,7 @@ export const works: Works[] = [
   ),
   author: "Sushruta",
   origin: "South Asia",
+  references: [1, 12, 15, 19],
   caption: "An Ayurvedic Surgical Collection",
   url: "/works/sush-sam.jpg"
 },
@@ -295,6 +304,7 @@ export const works: Works[] = [
   author: "Tamba Yasuyori",
   origin: "East Asia",
   caption: "The Oldest Surviving Medical Text from Japan",
+  references: [19, 22],
   url: "/works/ishinpo.png"
 },
 {
@@ -313,6 +323,7 @@ export const works: Works[] = [
   author: "N/A",
   origin: "Mediterranean/Middle East",
   caption: "The Most Important Medical Papyrus",
+  references: [11, 15, 19],
   url: "/works/ebers-papyrus.png"
 },
 {
@@ -328,6 +339,7 @@ export const works: Works[] = [
   author: "Charaka",
   origin: "South Asia",
   caption: "An Ayurvedic Mediacl Collection",
+  references: [1, 12, 15, 19],
   url: "/works/cha-sam.jpg"
 },
 {
@@ -343,6 +355,7 @@ export const works: Works[] = [
   author: "N/A",
   origin: "East Asia",
   caption: "Yellow Emperor's Classic of Internal Medicine",
+  references: [15, 19],
   url: "/works/huand.png"
 }
 ]
@@ -357,6 +370,7 @@ export const places: Places[] = [
     </p>
   ),
   origin: "Mediterranean/Middle East",
+  references: [15],
   url: "/places/asclepions.jpg"
 },
 {
@@ -373,6 +387,7 @@ export const places: Places[] = [
     </p>
   ),
   origin: "Mediterranean/Middle East",
+  references: [17, 19],
   url: "/places/jundi.jpg"
 },
 {
@@ -386,6 +401,7 @@ export const places: Places[] = [
     </p>
   ),
   origin: "East Asia",
+  references: [8, 9, 24],
   url: "/places/gokurakuji.png"
 },
 {
@@ -399,6 +415,7 @@ export const places: Places[] = [
     </p>
   ),
   origin: "South Asia",
+  references: [1, 13],
   url: "/places/nalanda.jpg"
 }
 ]
@@ -406,7 +423,7 @@ export const places: Places[] = [
 export const people: Person[] = [
 {
   name: "Ibn Sina",
-  references: [1,2,3],
+  references: [5, 10, 15, 19],
   caption: `The Father of Modern Medicine`,
   desc: (
     <>
@@ -490,10 +507,11 @@ export const people: Person[] = [
   data: {
     age: 60,
     birthday: "c. 865 CE",
-    yearRange: {start: 865, end: 925},
+    yearRange: { start: 865, end: 925 },
     origin: "Mediterranean/Middle East"
   },
-  url: "/people/alrazi.png"
+  url: "/people/alrazi.png",
+  references: [5, 15]
 },
 {
   name: "Imhotep",
@@ -517,10 +535,11 @@ export const people: Person[] = [
   data: {
     age: 0,
     birthday: "c. 27th century BCE",
-    yearRange: {start: -2700, end: -2601},
+    yearRange: { start: -2700, end: -2601 },
     origin: "Mediterranean/Middle East"
   },
-  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Imhotep.svg/250px-Imhotep.svg.png"
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Imhotep.svg/250px-Imhotep.svg.png",
+  references: [11, 15, 19]
 },
 {
   name: 'Asclepios',
@@ -544,10 +563,11 @@ export const people: Person[] = [
   data: {
     age: 0,
     birthday: "N/A",
-    yearRange: {start: -1200, end: 2025},
+    yearRange: { start: -1200, end: 2025 },
     origin: "Mediterranean/Middle East"
   },
-  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Asklepios_-_Epidauros.jpg/250px-Asklepios_-_Epidauros.jpg"
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Asklepios_-_Epidauros.jpg/250px-Asklepios_-_Epidauros.jpg",
+  references: [3, 11, 15, 19]
 },
 {
   name: 'Hippocrates of Kos',
@@ -558,7 +578,7 @@ export const people: Person[] = [
       <br />
       <br />
       Hippocrates initially learned medicine from his father who was also a physician. Hippocrates was also know to have travelled, possibly reaching Libya and Egypt, however much of the details of his life are known. Hippocrates is most often attributed to the{" "}
-        Hippocratic Corpus
+      Hippocratic Corpus
       , which helps to distinguish Greek Medicine from ancient Egyptian and Mesopotamian medicine; it is uncertain however, how much of the writing came from Hippocrates himself, as his followers likely contributed.
       <br />
       <br />
@@ -597,68 +617,70 @@ export const people: Person[] = [
   data: {
     age: 90,
     birthday: "c. 460 BCE",
-    yearRange: {start: -460, end: -370},
+    yearRange: { start: -460, end: -370 },
     origin: "Mediterranean/Middle East"
   },
-  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hippocrates.jpg/250px-Hippocrates.jpg"
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Hippocrates.jpg/250px-Hippocrates.jpg",
+  references: [3, 7, 11, 12, 14, 15, 19, 20]
 },
 {
   name: 'Cladius Galen',
   caption: "The Roman Philosopher and Physician",
   desc: (
-  <>
-    Galen was a Roman physician and philosopher who became the foremost medical authority within the Roman Empire. Galen was also a prolific writer, writing over 400 volumes and building upon works from{" "}
-    <Link href="/people/Hippocrates_of_Kos/info" className="text-blue-600 underline">
-      Hippocrates
-    </Link>{" "}
-    and other Greek physicians, and his works influenced medical theory and practice until the 17th century CE. Galen embraced Hippocratic ideas like{" "}
-    <Link href="/misc/Humourism" className="text-blue-600 underline">
-      Humourism
-    </Link>
-    , and expanded upon it adding other variables like hot-cold and wet-dry.
-    <br />
-    <br />
-    Galen was initially educated on rhetoric and philosophy, destined to become a lawyer or government official, however his hometown Pergamon had an{" "}
-    <Link href="/place/Asclepeions/" className="text-blue-600 underline">
-      Asclepion
-    </Link>
-    , which his father helped in renovating, causing him to ask Galen to take up medicine. Galen then studied in Smyrna and Alexandria, learning anatomical science and physiological theory.
-    <br />
-    <br />
-    Upon returning to Pergamon in 157 CE, he took up a position as a physician-surgeon to the gladiators, where he was able to take notes on the different wounds sustained. He was able to help decrease death rates increasing his fame. After Pergamon fell to the Romans, Galen moved to Rome in 162 CE, where he performed public anatomical demonstrations using a variety of animals; the Romans did not dissect at this time. Although he was controversial he was able to treat and impress many influential citizens and became the court physician of multiple emperors including Marcus Aurelius.
-    <br />
-    <br />
-    Galen soon began his prolific career, writing treatises covering topics of anatomy, physiology, pharmacy, and therapeutics. Galen was personally most interested in anatomy, which he believed served as the basis for all medicine; however, laws forbade him from directly opening human bodies. He therefore studied using animal models and was still able to make accurate descriptions of the true identity of  many muscles and tendons, such as showing the kidneys role in urine synthesis. However Galen also made many educated guesses, such as the heart being in the center of the body, which was proven incorrect by{" "}
-    <Link href="/people/Ibn_Sina/info" className="text-blue-600 underline">
-      Ibn Sina
-    </Link>
-    . Unfortunately many of his writings were lost to a fire at the Great Temple of Peace in Rome.
-    <br />
-    <br />
-    Galen’s influence persisted through the ages until the 16th century CE when his tenets of medicine began to be dismantled, but his works were still referred to by some physicians in the 19th century.
-  </>
-),
+    <>
+      Galen was a Roman physician and philosopher who became the foremost medical authority within the Roman Empire. Galen was also a prolific writer, writing over 400 volumes and building upon works from{" "}
+      <Link href="/people/Hippocrates_of_Kos/info" className="text-blue-600 underline">
+        Hippocrates
+      </Link>{" "}
+      and other Greek physicians, and his works influenced medical theory and practice until the 17th century CE. Galen embraced Hippocratic ideas like{" "}
+      <Link href="/misc/Humourism" className="text-blue-600 underline">
+        Humourism
+      </Link>
+      , and expanded upon it adding other variables like hot-cold and wet-dry.
+      <br />
+      <br />
+      Galen was initially educated on rhetoric and philosophy, destined to become a lawyer or government official, however his hometown Pergamon had an{" "}
+      <Link href="/place/Asclepeions/" className="text-blue-600 underline">
+        Asclepion
+      </Link>
+      , which his father helped in renovating, causing him to ask Galen to take up medicine. Galen then studied in Smyrna and Alexandria, learning anatomical science and physiological theory.
+      <br />
+      <br />
+      Upon returning to Pergamon in 157 CE, he took up a position as a physician-surgeon to the gladiators, where he was able to take notes on the different wounds sustained. He was able to help decrease death rates increasing his fame. After Pergamon fell to the Romans, Galen moved to Rome in 162 CE, where he performed public anatomical demonstrations using a variety of animals; the Romans did not dissect at this time. Although he was controversial he was able to treat and impress many influential citizens and became the court physician of multiple emperors including Marcus Aurelius.
+      <br />
+      <br />
+      Galen soon began his prolific career, writing treatises covering topics of anatomy, physiology, pharmacy, and therapeutics. Galen was personally most interested in anatomy, which he believed served as the basis for all medicine; however, laws forbade him from directly opening human bodies. He therefore studied using animal models and was still able to make accurate descriptions of the true identity of  many muscles and tendons, such as showing the kidneys role in urine synthesis. However Galen also made many educated guesses, such as the heart being in the center of the body, which was proven incorrect by{" "}
+      <Link href="/people/Ibn_Sina/info" className="text-blue-600 underline">
+        Ibn Sina
+      </Link>
+      . Unfortunately many of his writings were lost to a fire at the Great Temple of Peace in Rome.
+      <br />
+      <br />
+      Galen’s influence persisted through the ages until the 16th century CE when his tenets of medicine began to be dismantled, but his works were still referred to by some physicians in the 19th century.
+    </>
+  ),
   data: {
     age: 87,
     birthday: "c. 129 CE",
-    yearRange: {start: 129, end: 216},
+    yearRange: { start: 129, end: 216 },
     origin: "Mediterranean/Middle East"
   },
-  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Claudius_Galenus_%281906%29_-_Veloso_Salgado.png/250px-Claudius_Galenus_%281906%29_-_Veloso_Salgado.png"
+  url: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Claudius_Galenus_%281906%29_-_Veloso_Salgado.png/250px-Claudius_Galenus_%281906%29_-_Veloso_Salgado.png",
+  references: [3, 7, 15, 19, 20]
 },
 {
   name: 'Kajiwara Shozen',
   caption: "Buddhist Priest and Clinical Physician",
   desc: (
     <>
-      Kajiwara Shozen was a monk-doctor, who studied Buddhist scriptures and mastered medicine under the Tanba and Wake families, who were heads of the medical bureau for generations. One of his greatest contributions was his writing, <i>Tonisho</i>, which was Japan’s first medical encyclopedia.
+      Kajiwara Shozen was a monk-doctor, who studied Buddhist scriptures and mastered medicine under the Tanba and Wake families, who were heads of the medical bureau for generations.One of his greatest contributions was his writing, <i>Tonisho</i>, which was Japan’s first medical encyclopedia.
       <br />
       <br />
       During Shozen’s time religious institutions were not just centers of spiritual life, but also served as hubs of healing. Through working at{" "}
       <Link href="/place/Gokuraku-ji" className="text-blue-600 underline">
         Gokuraku-ji
       </Link>
-      , he was able to merge the ethical imperatives of Buddhist teaching with direct clinical care. Shonzen also actively engaged with foreign medical knowledge. He accessed many Chinese texts from the Song dynasty (aided by their printing revolution), learning about a wide arrange of topics from disease, to health regimens to prevent the diseases, and medical ethics. In creating his <i>Tonisho</i>, he did not directly quote Chinese texts as many previous medical books did, but used his own words and kana (one of the writing forms in Japan) and was the first to include anatomical diagrams. During his time, medicine tended to be kept secret and within the family, but Shozen wanted to spread the profession to help save people.
+      , he was able to merge the ethical imperatives of Buddhist teaching with direct clinical care.Shonzen also actively engaged with foreign medical knowledge.He accessed many Chinese texts from the Song dynasty (aided by their printing revolution), learning about a wide arrange of topics from disease, to health regimens to prevent the diseases, and medical ethics.In creating his <i>Tonisho</i>, he did not directly quote Chinese texts as many previous medical books did, but used his own words and kana (one of the writing forms in Japan) and was the first to include anatomical diagrams. During his time, medicine tended to be kept secret and within the family, but Shozen wanted to spread the profession to help save people.
       <br />
       <br />
       Shozen also took a dual approach to medicine. Through his Buddhist origins, he viewed illness as a manifestation of karmic imbalance. He encouraged moral and ritualistic practices to restore both physical health and spiritual integrity of the person; which helped offer a moral framework to understanding disease. Through embracing Song medical knowledge however, he was able to apply structured and textually based prescription methods. His work provided careful formulation and dosages of prescriptions.
@@ -670,10 +692,11 @@ export const people: Person[] = [
   data: {
     age: 72,
     birthday: "1265 CE",
-    yearRange: {start: 1265, end: 1337},
+    yearRange: { start: 1265, end: 1337 },
     origin: "East Asia"
   },
-  url: "/people/kojiwara.jpg"
+  url: "/people/kojiwara.jpg",
+  references: [8, 24]
 },
 {
   name: 'Sushruta',
@@ -689,7 +712,7 @@ export const people: Person[] = [
         Sushruta Samhita
       </Link>
       . Very little is known about his life and his name is an epithet meaning “renowned.” He is also believed to be a contemporary to{" "}
-        Charaka
+      Charaka
       or having come slightly after.
       <br />
       <br />
@@ -709,10 +732,11 @@ export const people: Person[] = [
   data: {
     age: 0,
     birthday: "600 BCE",
-    yearRange: {start: -600, end: -501},
+    yearRange: { start: -600, end: -501 },
     origin: "South Asia"
   },
-  url: "/people/sushruta.jpg"
+  url: "/people/sushruta.jpg",
+  references: [1, 12, 15, 19]
 },
 {
   name: 'Manase Dosan',
@@ -720,7 +744,7 @@ export const people: Person[] = [
   desc: (
     <>
       Manase Dosan, real name Shosei, was one of Japan’s most influential physicians, initiating the revival of Japanese medicine. His most significant work was{" "}
-        Keitekishu
+      Keitekishu
       (Collected Teachings), which was a 15-volume medical work, which classified diseases (and symptoms) into 51 groups. He also wrote a few other works.
       <br />
       <br />
@@ -730,10 +754,11 @@ export const people: Person[] = [
   data: {
     age: 86,
     birthday: "1507 CE",
-    yearRange: {start: 1507, end: 1594},
+    yearRange: { start: 1507, end: 1594 },
     origin: "East Asia"
   },
-  url: "/people/menase.png"
+  url: "/people/menase.png",
+  references: [19, 23]
 },
 
 ]

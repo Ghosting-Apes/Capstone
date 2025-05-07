@@ -32,7 +32,7 @@ export default function PlacePage() {
                         {place?.desc}
                     </pre>
                     <div>
-                        <h1 className="font-bold">References: {place?.references?.map(r => `${r}`).join(',')}</h1>
+                        <h1 className="font-bold">References: {place?.references?.map(r => `${r}`).join(', ')}</h1>
                     </div>
                 </div>
             </div>

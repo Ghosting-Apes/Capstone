@@ -32,7 +32,7 @@ export default function MiscPage() {
                     {misc?.desc}
                 </pre>
                 <div>
-                    <h1 className="font-bold">References: {misc?.references?.map(r => `${r}`).join(',')}</h1>
+                    <h1 className="font-bold">References: {misc?.references?.map(r => `${r}`).join(', ')}</h1>
                 </div>
             </div>
             </div>
