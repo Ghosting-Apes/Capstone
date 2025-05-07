@@ -1,6 +1,8 @@
 "use client";
 import { useForm } from "@mantine/form";
 import { Button, Group, TextInput, Textarea } from '@mantine/core';
+import React from "react";
+import axios from "axios";
 
 
 export default function Contact() {
@@ -18,9 +20,23 @@ export default function Contact() {
     },
   });
 
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault();
+    console.log("Form data: ", form.getValues());
+
+    try {
+      const request = axios.post('/api/contact', form)
+      .then((res) => {
+        console.log("res")
+      });
+    } catch (e) {
+      console.error(e);
+    }
+  }
+
   return (
   <div className="flex flex-col w-full justify-center items-center p-8">
-    <form className="border-1 border-gray-400 p-10 w-[400]">
+    <form onSubmit={(e) => handleSubmit(e)} className="border-1 border-gray-400 p-10 w-[400]">
       <TextInput
         m={5}
         placeholder="First Name"

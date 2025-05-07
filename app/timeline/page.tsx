@@ -1,4 +1,5 @@
 "use client"
+import { px } from 'framer-motion';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
@@ -8,9 +9,10 @@ const Chrono = dynamic(() => import('react-chrono').then(mod => mod.Chrono), {
 
 export default function Time() {
   return (
-    <div className="flex flex-col w-full h-full justify-center items-center">
-      <Chrono textDensity="LOW" items={[
-        {
+    <div className='text-xl'>
+      <Chrono textDensity="LOW" 
+       items={[
+        { 
           title: "47th Millennium BCE",
           cardTitle: "First Evidence of Medicine",
           media: {

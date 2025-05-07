@@ -32,6 +32,8 @@ export default function DataCard(props: {name: string, caption?: string, imgURL?
             shadow='lg' 
             w={200}
             component='a'
+            ml={75}
+            mr={75}
             href={getUrlRoute()}
             className={styles.element}>
                 <div style={{ width: '100%', height: 200, overflow: 'hidden' }}>

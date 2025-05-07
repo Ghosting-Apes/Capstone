@@ -8,9 +8,10 @@ export default function RegionPage() {
     const params = useParams();
     const slug = decodeURIComponent(params.name as string);
 
-    const regionName = slug.split("-").map(n => n.charAt(0).toUpperCase() + n.slice(1)).join(" ");
-    console.log(regionName);
-
+    let regionName = slug.split("-").map(n => n.charAt(0).toUpperCase() + n.slice(1)).join(" ");
+    if (regionName === "Middle East") {
+        regionName = "Mediterranean/Middle East";
+    }
 
     const getPeople = () => {
         return people.filter(p => p.data.origin === regionName || p.data.origin.includes(regionName))

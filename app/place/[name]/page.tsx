@@ -22,16 +22,19 @@ export default function PlacePage() {
                         width={400}
                         height={200} />
                     </div>
-                    <div className="ml-10 p-10 w-full">
+                    <div className="ml-10 text-lg p-10 w-full">
                         <h1 className="font-bold text-2xl mb-8">{placeName}</h1>
                         <p><span className="font-semibold">Region:</span> {place?.origin}</p>
                     </div>
                 </div>
-                <div className="flex p-2 m-2 w-5/8">
-                <pre style={{ fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
-                    {place?.desc}
-                </pre>
-            </div>
+                <div className="flex flex-col p-2 m-2 w-5/8">
+                    <pre className="mb-5 text-xl" style={{ fontFamily: 'inherit', whiteSpace: 'pre-wrap' }}>
+                        {place?.desc}
+                    </pre>
+                    <div>
+                        <h1 className="font-bold">References: {place?.references?.map(r => `${r}`).join(',')}</h1>
+                    </div>
+                </div>
             </div>
         </div>
     )

@@ -23,14 +23,17 @@ export default function InfoPage() {
                 </div>
                 <div className="ml-10 p-10 w-full">
                     <h1 className="font-bold text-2xl mb-8">{formattedName}</h1>
-                    {person?.data?.age !== 0 && <p><span className="font-semibold">Age:</span> {person?.data?.age}</p>}
-                    {person?.data?.birthday !== "N/A" && <p><span className="font-semibold">Birthday:</span> {person?.data?.birthday}</p>}
-                    <p><span className="font-semibold">Region:</span> {person?.data?.origin}</p>
+                    {person?.data?.age !== 0 && <p className="text-lg "><span className="font-semibold">Age:</span> {person?.data?.age}</p>}
+                    {person?.data?.birthday !== "N/A" && <p className="text-lg "><span className="font-semibold">Birthday:</span> {person?.data?.birthday}</p>}
+                    <p className="text-lg"><span className="font-semibold">Region:</span> {person?.data?.origin}</p>
                 </div>
             </div>
-            <div className="flex p-2 m-2 w-5/8">
-                <div className="whitespace-pre-wrap font-inherit">
+            <div className="flex flex-col p-2 m-2 w-5/8">
+                <div className="whitespace-pre-wrap font-inherit mb-5 text-xl ">
                     {person?.desc}
+                </div>
+                <div>
+                    <h1 className="font-bold">References: {person?.references?.map(r => `${r}`).join(',')}</h1>
                 </div>
             </div>
         </div>

@@ -14,6 +14,7 @@ data: Metadata,
 caption?: string,
 desc: string | JSX.Element,
 url: string,
+references: number[]
 }
 
 export interface TimePeriod {
@@ -27,6 +28,7 @@ caption: string,
 origin: string,
 author?: string,
 url?: string,
+references: number[]
 }
 
 export interface Places {
@@ -35,13 +37,15 @@ desc: string | JSX.Element,
 caption: string,
 origin: string,
 url?: string
+references: number[]
 }
 export interface Miscellaneous {
 title: string,
 desc: string | JSX.Element,
 caption: string,
 origin: string,
-url?: string
+url?: string,
+references: number[]
 }
 
 export const miscellaneous: Miscellaneous[] = [
@@ -402,6 +406,7 @@ export const places: Places[] = [
 export const people: Person[] = [
 {
   name: "Ibn Sina",
+  references: [1,2,3],
   caption: `The Father of Modern Medicine`,
   desc: (
     <>
