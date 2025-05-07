@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import Link from "next/link";
 import React, { JSX } from "react";
 
@@ -55,7 +57,7 @@ export const miscellaneous: Miscellaneous[] = [
   desc: (
   <>
       <p>
-      Humourism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles's notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the Hippocratic Corpus. According to <Link href="/people/Hippocrates_of_Kos/info">Hippocrates</Link> and his followers, the four personality types (temperaments) emerge from the four humors. The system was formalized by <Link href="/people/Cladius_Galen/info">Galen</Link>, who further expanded upon it adding the variables hot-cold and wet-dry, as well as four major organs, each of which linked to a humour. Galen believed that achieving equilibrium differed for each person, which is why people varied in health, personality, and susceptibility to illness. The principles of humourism can be found in other systems such as within the five elements of the <Link href="/misc/Ayurveda">Ayurveda</Link> medical system.
+      Humourism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles&apos;s notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the Hippocratic Corpus. According to <Link href="/people/Hippocrates_of_Kos/info">Hippocrates</Link> and his followers, the four personality types (temperaments) emerge from the four humors. The system was formalized by <Link href="/people/Cladius_Galen/info">Galen</Link>, who further expanded upon it adding the variables hot-cold and wet-dry, as well as four major organs, each of which linked to a humour. Galen believed that achieving equilibrium differed for each person, which is why people varied in health, personality, and susceptibility to illness. The principles of humourism can be found in other systems such as within the five elements of the <Link href="/misc/Ayurveda">Ayurveda</Link> medical system.
       </p>
     <br />
     <p>

@@ -2,7 +2,6 @@
 import { useForm } from "@mantine/form";
 import { Button, Group, TextInput, Textarea } from '@mantine/core';
 import React from "react";
-import axios from "axios";
 
 
 export default function Contact() {
@@ -23,15 +22,6 @@ export default function Contact() {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log("Form data: ", form.getValues());
-
-    try {
-      const request = axios.post('/api/contact', form)
-      .then((res) => {
-        console.log("res")
-      });
-    } catch (e) {
-      console.error(e);
-    }
   }
 
   return (

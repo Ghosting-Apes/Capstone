@@ -1,5 +1,4 @@
 "use client"
-import { px } from 'framer-motion';
 import dynamic from 'next/dynamic';
 import Link from 'next/link';
 
@@ -147,7 +146,7 @@ export default function Time() {
           },
           cardSubtitle: (
             <div>
-              <p>Greek physician Soranus of Ephesus writes Gynaecology, one of his works that set the standard of women's health and infant care.</p>
+              <p>Greek physician Soranus of Ephesus writes Gynaecology, one of his works that set the standard of women&apos;s health and infant care.</p>
             </div>
           )
         },
