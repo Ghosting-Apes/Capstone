@@ -51,7 +51,7 @@ export const miscellaneous: Miscellaneous[] = [
   desc: (
   <>
       <p>
-      Humourism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles's notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the Hippocratic Corpus. According to <Link href="/people/hippocrates">Hippocrates</Link> and his followers, the four personality types (temperaments) emerge from the four humors. The system was formalized by <Link href="/people/Cladius_Galen">Galen</Link>, who further expanded upon it adding the variables hot-cold and wet-dry, as well as four major organs, each of which linked to a humour. Galen believed that achieving equilibrium differed for each person, which is why people varied in health, personality, and susceptibility to illness. The principles of humourism can be found in other systems such as within the five elements of the <Link href="/misc/Ayurveda">Ayurveda</Link> medical system.
+      Humourism is based on balancing the four humours, or bodily fluids, of the body. Adapted from Empedocles's notion of four classical roots, (air, fire, water, and earth), and incorporated into medicine as the four humours - blood, yellow bile, black bile, and phlegm. A balance of these humours meant good health, while imbalance was the cause of illness. The system is mentioned in the Hippocratic Corpus. According to <Link href="/people/Hippocrates_of_Kos/info">Hippocrates</Link> and his followers, the four personality types (temperaments) emerge from the four humors. The system was formalized by <Link href="/people/Cladius_Galen/info">Galen</Link>, who further expanded upon it adding the variables hot-cold and wet-dry, as well as four major organs, each of which linked to a humour. Galen believed that achieving equilibrium differed for each person, which is why people varied in health, personality, and susceptibility to illness. The principles of humourism can be found in other systems such as within the five elements of the <Link href="/misc/Ayurveda">Ayurveda</Link> medical system.
       </p>
     <br />
     <p>
@@ -173,7 +173,7 @@ May I always act so as to preserve the finest traditions of my calling and may I
     <>
   Ayurveda (“Life Knowledge”) is a traditional medical system that has prevailed in southern Asia for over 2000 years. Its earliest form is dated to the Vedic period of Indian (c. 5000 BCE), while its roots are attributed to Dhanvantari, who was deified as the Hindu god of medicine and is the physician of other Hindu gods.
 
-  The basis of Ayurveda is formed by two major works, <Link href="/work/Sushruta_Samhita">Sushruta Samhita</Link> and <Link href="/work/Chakara_Samhita">Chakara Samhita</Link>. There are also three more works that contribute to Ayurveda, those being Ashtanga Hridayam, Ashtanga Sangraha, and the Bower Manuscript.
+  The basis of Ayurveda is formed by two major works, <Link href="/work/Sushruta_Samhita">Sushruta Samhita</Link> and <Link href="/work/Charaka_Samhita">Charaka Samhita</Link>. There are also three more works that contribute to Ayurveda, those being Ashtanga Hridayam, Ashtanga Sangraha, and the Bower Manuscript.
 
   Similarly to concepts from <Link href="/misc/Traditional_Chinese_Medicine">traditional Chinese medicine</Link>, most Ayurveda systems are based on the idea of the five elements, water (jala/ap), fire (tejas/agni), earth (privthi/bhumi), air (pavana/vayu), and ether/space (akasha). Similary to <Link href="/misc/Humourism">Humourism</Link>, within a person the proportion of each element varies and contributes to three doshas, which are wind (vata), bile (pitta), and phlegm (kapha). When these dosha are in balance a person has good health, but imbalance causes sickness related to the dominant dosha. Increased vata may cause indigestion, flatulence, and cramps, while increased kapla may cause coughing and difficulty breathing. 
 
@@ -195,7 +195,7 @@ May I always act so as to preserve the finest traditions of my calling and may I
   caption: "\"Method from the Han Period\"",
   desc: (
     <>
-  Kampo, which literally translates to “method from the Han period of ancient China (206 BCE – 220 CE) is the traditional herbal medical system of Japan. Before Kampo, Japanese medicine was based on prayers, rituals, and incantations, as evil spirits and the gods were believed to be the cause of ill health. Starting in 608 CE, Japanese physicians were sent to mainland China to study medicine, causing an influx of <Link href="/misc/Traditional_Chinese_Medicine">traditional Chinese medicine</Link> influence on Japanese medicine. By 982 CE, <Link href="/work/Ishinpo">Ishinpo</Link> by <Link href="/people/Tamba_Yasuyori/info">Tamba Yasuyori</Link> was completed, which is the oldest surviving Japanese medical work. It was not until the Edo period (1600 CE) for Japanese characteristics to form in Kampo. Works by <Link href="/people/Manase_Dosan/info">Manase Dosan</Link> and <Link href="/people/Nagata_Tokuhun/info">Nagata Tokuhun</Link> also contributed significantly to Kampo, promoting a holistic understanding of disease beyond symptom management. 
+  Kampo, which literally translates to “method from the Han period of ancient China (206 BCE – 220 CE) is the traditional herbal medical system of Japan. Before Kampo, Japanese medicine was based on prayers, rituals, and incantations, as evil spirits and the gods were believed to be the cause of ill health. Starting in 608 CE, Japanese physicians were sent to mainland China to study medicine, causing an influx of <Link href="/misc/Traditional_Chinese_Medicine">traditional Chinese medicine</Link> influence on Japanese medicine. By 982 CE, <Link href="/work/Ishinpo">Ishinpo</Link> by Tamba Yasuyori was completed, which is the oldest surviving Japanese medical work. It was not until the Edo period (1600 CE) for Japanese characteristics to form in Kampo. Works by <Link href="/people/Manase_Dosan/info">Manase Dosan</Link> and Nagata Tokuhun also contributed significantly to Kampo, promoting a holistic understanding of disease beyond symptom management. 
 
   Kampo has persisted to today with ~50% of Japanese physicians today prescribing some form of Kampo remedy and over 10000 pharmacies in Japan that dispense herbal remedies. Systemic research studies have also started to arise to test the effectiveness of Kampo therapies.
 </>
@@ -211,13 +211,13 @@ May I always act so as to preserve the finest traditions of my calling and may I
     <>
   Traditional Arabic and Islamic Medicine is a culmination of centuries of healing practices from many different cultures. Before the advent of Islam, traditional medicine of the Middle East was rooted in ancient Mesopotamian, Egyptian, Greek, and Persian traditions. 
 
-  The <Link href="/work/Code_Of_Hammurabi">Code of Hammurabi</Link> is often regarded as the origin of medicine as a profession and Babylonians believed illness to be a punishment from the gods with its cure as a reward. Assyrians believed that three demons (decay, liver diseases, and abortion/infant death) were responsible for disease, and cures were largely prayer based with a few emetic drugs used to “disgust” the evil spirit causing it to flee.  Ancient Egypt had priest physicians who had knowledge in anatomy, rheumatology, surgery, neurosurgery, and pharmacology. Ancient Iranian medicine has roots in Zoroastrianism, and causes of disease included the demon Ahriman, sin, poor diet, uncontrolled sexual appetite, or the god Ahura Mazda. There also existed three types of practitioners; healers by herbs, healers by surgery, and healers by instruction. The Durustpat (“Masters of Health”) were physicians who practiced preventative medicine, while the Tan Beshazak (“Healers of the Body”) were physicians who practiced clinical medicine, treating disease after it manifests. Little is known about the Arab Peninsula whoever it seems that Arabs knew how to treat septic wounds and ulcers, but also used disinfectants and understood that isolating infected patients could help prevent infectious disease.
+  The Code of Hammurabi is often regarded as the origin of medicine as a profession and Babylonians believed illness to be a punishment from the gods with its cure as a reward. Assyrians believed that three demons (decay, liver diseases, and abortion/infant death) were responsible for disease, and cures were largely prayer based with a few emetic drugs used to “disgust” the evil spirit causing it to flee.  Ancient Egypt had priest physicians who had knowledge in anatomy, rheumatology, surgery, neurosurgery, and pharmacology. Ancient Iranian medicine has roots in Zoroastrianism, and causes of disease included the demon Ahriman, sin, poor diet, uncontrolled sexual appetite, or the god Ahura Mazda. There also existed three types of practitioners; healers by herbs, healers by surgery, and healers by instruction. The Durustpat (“Masters of Health”) were physicians who practiced preventative medicine, while the Tan Beshazak (“Healers of the Body”) were physicians who practiced clinical medicine, treating disease after it manifests. Little is known about the Arab Peninsula whoever it seems that Arabs knew how to treat septic wounds and ulcers, but also used disinfectants and understood that isolating infected patients could help prevent infectious disease.
 
-  After Islam in the 7th century CE, medicine in the Arab peninsula transformed. One of the foundations of Islam was the pursuit of knowledge and thus the foundation of Islamic science arose during the Abbasid Caliphate with <Link href="/place/Baghdad">Baghdad</Link> at the center. Many texts were translated into Arabic from Greek, Syriac, and Sanskrit, and many physicians and scientists came to Baghdad. Physicians like <Link href="/people/Al-Razi/info">Al-Razi</Link> and <Link href="/people/Ibn_Sina/info">Ibn Sina</Link> arose further increasing Islamic medical knowledge. 
+  After Islam in the 7th century CE, medicine in the Arab peninsula transformed. One of the foundations of Islam was the pursuit of knowledge and thus the foundation of Islamic science arose during the Abbasid Caliphate with Baghdad at the center. Many texts were translated into Arabic from Greek, Syriac, and Sanskrit, and many physicians and scientists came to Baghdad. Physicians like <Link href="/people/Al-Razi/info">Al-Razi</Link> and <Link href="/people/Ibn_Sina/info">Ibn Sina</Link> arose further increasing Islamic medical knowledge. 
 
   During Ottoman times complementing medical systems existed. <Link href="/misc/Humourism">Humourism</Link>, used mostly by the upper class, religious medicine based on the prophetic teachings, used by all classes, and popular medicine not derived from a written tradition, used by the lower class existed. Ottomans also believed in humans being custodians of the natural world and greatly sponsored medical aid and charity for the sick. Many hospitals and public welfare centers were established in the centers of major cities. The Ottomans also believed that physical and mental health were closely related, and built hospitals near mosques, and did not isolate the sick (unless they were a leers patient). To the Ottomans, death was a part of the life cycle and medicine served to do no harm instead of curing all. 
 
-  Traditional Arabic and Islamic medicine also differed from other systems like <Link href="/misc/Traditional_Chinese_Medicine">Traditional Chinese Medicine</Link>, <Link href="/work/Ayurveda">Ayurveda</Link>, and <Link href="/work/Kampo">Kampo</Link>, in that herbal remedies were typically based on a single plant species or a mix of few local plant species. These remedies were administered through inhaling the oils from boiling parts of the plant or by ingesting the plant in the form of a juice, syrup, paste, or other form.
+  Traditional Arabic and Islamic medicine also differed from other systems like <Link href="/misc/Traditional_Chinese_Medicine">Traditional Chinese Medicine</Link>, <Link href="/misc/Ayurveda">Ayurveda</Link>, and <Link href="/misc/Kampo">Kampo</Link>, in that herbal remedies were typically based on a single plant species or a mix of few local plant species. These remedies were administered through inhaling the oils from boiling parts of the plant or by ingesting the plant in the form of a juice, syrup, paste, or other form.
 
   Traditional Arabic and Islamic medicine and other plant based therapies have seen a revival in recent times due to increased costs of chemical drugs and the side effects that come with them.
   </>
@@ -239,7 +239,7 @@ export const works: Works[] = [
     </p>
     <br/>
     <p>
-      The work contains over 1 million words that is encompassed within 5 volumes. It contained all medical and surgical knowledge of the time and included the doctrines of <Link href="/people/Hippocrates_of_Kos">Hippocrates</Link>, <Link href="/people/Cladius_Galen">Galen</Link>, and Aristotle. In the 12th century, <em>Qanun fil Tib</em> was translated into Latin, leading it to dominate medicine during medieval times. It has been translated into many languages and published many times since. 
+      The work contains over 1 million words that is encompassed within 5 volumes. It contained all medical and surgical knowledge of the time and included the doctrines of <Link href="/people/Hippocrates_of_Kos/info">Hippocrates</Link>, <Link href="/people/Cladius_Galen/info">Galen</Link>, and Aristotle. In the 12th century, <em>Qanun fil Tib</em> was translated into Latin, leading it to dominate medicine during medieval times. It has been translated into many languages and published many times since. 
     </p>
     <br/>
     <p>
@@ -281,7 +281,7 @@ export const works: Works[] = [
   desc: (
   <>
     <p>
-      <em>Ishinpo</em>, written by <strong>Tamba Yasuyori</strong>, who completed the work in 982 CE, is the oldest Japanese medical text that is still in existence. The work is a collection of 30 volumes based entirely upon classical <Link href="/misc/Traditional_Chinese_Medicine">traditional Chinese medicine</Link> texts from the Sui and Tang dynasties (581 CE – 907 CE). Due to this, yin and yang is the basis of the theory of disease causation. The work discusses a large range of topics from disease and their treatment, organized by the affected organs or systems, drugs and their formulas, <Link href="/misc/Acupuncture">acupuncture</Link>, diets, Buddhist sutras and more. The work itself also helped to preserve information from the Chinese texts used in this collection that have since been lost. The work itself had been sequestered in the imperial collection with very little copies in circulation. It was not until 1854 CE, when the Tokugawa shogun ordered for this work to be sent to the Edo Medical Academy for its revision and reproduction, for <em>Ishinpo</em> to be made known worldwide.
+      <em>Ishinpo</em>, written by Tamba Yasuyori, who completed the work in 982 CE, is the oldest Japanese medical text that is still in existence. The work is a collection of 30 volumes based entirely upon classical <Link href="/misc/Traditional_Chinese_Medicine">traditional Chinese medicine</Link> texts from the Sui and Tang dynasties (581 CE – 907 CE). Due to this, yin and yang is the basis of the theory of disease causation. The work discusses a large range of topics from disease and their treatment, organized by the affected organs or systems, drugs and their formulas, <Link href="/misc/Acupuncture">acupuncture</Link>, diets, Buddhist sutras and more. The work itself also helped to preserve information from the Chinese texts used in this collection that have since been lost. The work itself had been sequestered in the imperial collection with very little copies in circulation. It was not until 1854 CE, when the Tokugawa shogun ordered for this work to be sent to the Edo Medical Academy for its revision and reproduction, for <em>Ishinpo</em> to be made known worldwide.
     </p>
     <br/>
     <p>
@@ -315,7 +315,7 @@ export const works: Works[] = [
   title: "Charaka Samhita",
   desc: (
     <>
-  The Charaka Samhita forms one of the main basis of <Link href="/work/Ayurvedic">Ayurvedic</Link> medicine as is attributed to the Indian physician <Link href="/people/Charaka/info">Charaka</Link>. Samhita means collection/compilation and the Charaka Samhita contains 110 chapters divided into 8 sections with instructions of how a physician should examine patients and make their diagnosis, similar to the teachings of <Link href="/people/Hippocrates/info">Hippocrates</Link>. The collection also contains recommended treatments including remedies that emphasize lifestyle, hygiene, exercise, and diet changes. Herbal/mineral based medicine are also included. The work is written in verse to aid its readers in memorization. 
+  The Charaka Samhita forms one of the main basis of <Link href="/misc/Ayurveda">Ayurvedic</Link> medicine as is attributed to the Indian physician Charaka. Samhita means collection/compilation and the Charaka Samhita contains 110 chapters divided into 8 sections with instructions of how a physician should examine patients and make their diagnosis, similar to the teachings of <Link href="/people/Hippocrates_of_Kos/info">Hippocrates</Link>. The collection also contains recommended treatments including remedies that emphasize lifestyle, hygiene, exercise, and diet changes. Herbal/mineral based medicine are also included. The work is written in verse to aid its readers in memorization. 
 
   The Charaka Samhita has been adapted in other works, along with the <Link href="/work/Sushruta_Samhita">Sushruta Samhita</Link>, such as into Ashtanga Hridayam.
 </>
@@ -358,33 +358,42 @@ export const places: Places[] = [
 {
   name: "Jundi Shapur",
   caption: "\"Beautiful Garden\"",
-  desc: `
+  desc: (
+    <p>
   Jundi Shapur, which means “Beautiful Garden”, was the first medical school in pre-Islamic ancient Iran (located in modern day Khuzestan). The location was originally founded by the Sassanid Emperor, Shapur I, as a prison, but became a refugee for intellectuals coming from the Greeks, Syrians, and Nestorians. 
 
-  The Byzantines destroying the School of Edessa (modern day Urfa, Turkey) in 457 CE as well as it being later closed by Emperor Zeno in 489 CE, followed by the closing of the Athenian Academy by Byzantine Emperor Justinian in 529 CE, led to these Greek and Nestorian physicians to emigrate to Jundi Shapur, where they sought the patronage of Shapur II. Further more in 555 CE, king Khosraw Anushirawan, established a medical centre and hospital, allowing for the medical traditions of the Greeks, Persians, Indians, Jews, Nestorians, and Zoroastrians to meet and further develop; this was the foundation of medical developments under Muslim rule. The physician of the prophet Muhammad (PBUH) had trained at Jundi Shapur, and Jundi Shapur was the center of medical teaching in the Islamic world until Baghdad under Al-Mansur in 762 CE.
-`,
+  The Byzantines destroying the School of Edessa (modern day Urfa, Turkey) in 457 CE as well as it being later closed by Emperor Zeno in 489 CE, followed by the closing of the Athenian Academy by Byzantine Emperor Justinian in 529 CE, led to these Greek and Nestorian physicians to emigrate to Jundi Shapur, where they sought the patronage of Shapur II. Further more in 555 CE, king Khosraw Anushirawan, established a medical centre and hospital, allowing for the medical traditions of the Greeks, Persians, Indians, Jews, Nestorians, and Zoroastrians to meet and further develop; this was the foundation of medical developments under Muslim rule. The physician of the prophet Muhammad (PBUH) had trained at Jundi Shapur, and Jundi Shapur was the center of medical teaching in the Islamic world influencing{" "}
+  <Link href="/misc/Traditional_Arabic_and_Islamic_Medicine" className="text-blue-600 underline">
+        traditional Arabic and Islamic medicine
+    </Link>, until Baghdad under Al-Mansur in 762 CE.
+    </p>
+  ),
   origin: "Mediterranean/Middle East",
   url: "/places/jundi.jpg"
 },
 {
   name: "Gokuraku-ji",
   caption: "The Temple of Paradise",
-  desc: `
+  desc: (
+    <p>
   Gokuraku-ji, often regarded as the “Temple of Paradise” is a prominent Buddhist institution in Kamakura, Japan, and was founded in 1259 CE, a time of the warrior government. The valley in which is stands was called “Hell Valley” as during ancient times, corpses of the deceased were abandoned there. 
 
-  The temple served as a way to transform the once feared “Hell Valley” into a location of healing and hope. The temple transformed not only into a place of Buddhist prayer, but a place of education and free medical care to those in need. Japanese physicians like ***Kajiwara Shozen*** served here helping to shape his approach to medicine.
-`,
+  The temple served as a way to transform the once feared “Hell Valley” into a location of healing and hope. The temple transformed not only into a place of Buddhist prayer, but a place of education and free medical care to those in need. Japanese physicians like <Link href="/people/Kajiwara_Shozen/info">Kajiwara Shozen</Link> served here helping to shape his approach to medicine.
+    </p>
+  ),
   origin: "East Asia",
   url: "/places/gokurakuji.png"
 },
 {
   name: "Nalanda University",
   caption: "A Historic Indian University",
-  desc: `
-  Nalanda is a historic university in India, founded in 427 CE, and a hub for students from East and South Asia, who gathered to study medicine, among other topics. Nalanda is considered the first residential university. ***Ayurveda*** was extensively taught, which was spread by alumni to other parts of India.
+  desc: (
+    <p>
+  Nalanda is a historic university in India, founded in 427 CE, and a hub for students from East and South Asia, who gathered to study medicine, among other topics. Nalanda is considered the first residential university. <Link href="/misc/Ayurveda">Ayurveda</Link> was extensively taught, which was spread by alumni to other parts of India.
 
   Chinese physicians came to Nalanda to study and brought back with them their new knowledge. This knowledge was later imported to Japan by Japanese students in China.
-`,
+    </p>
+  ),
   origin: "South Asia",
   url: "/places/nalanda.jpg"
 }
@@ -460,7 +469,7 @@ export const people: Person[] = [
       borrowed heavily from Al-Razi.
       <br />
       <br />
-      Al-Razi was the first to recommend clinical trials. He said that to observe the outcome of bloodletting on a condition, patients must be divided into two groups with only one group receiving the bloodletting to compare the outcome. Al-Razi was also considered “the Father of Pediatrics” due to his book *Kitab fi Al-Jadari wa Al-Hasbah*, which also included information on measles and smallpox.
+      Al-Razi was the first to recommend clinical trials. He said that to observe the outcome of bloodletting on a condition, patients must be divided into two groups with only one group receiving the bloodletting to compare the outcome. Al-Razi was also considered “the Father of Pediatrics” due to his book Kitab fi Al-Jadari wa Al-Hasbah, which also included information on measles and smallpox.
       <br />
       <br />
       He also emphasized how doctor-patient relationships were important and revived the{" "}
@@ -487,7 +496,7 @@ export const people: Person[] = [
   desc: (
     <>
       Imhotep was an architect and the leader of the priest physicians in Ancient Egypt. He was active during the 27th century BCE and was the foremost medical figure of the time. He was later deified (c. 525BCE) as he was believed to be the son of the ancient Egyptian goddess of healing, Sekhmet, and was continued to be worshipped even after ancient Egyptian civilization faded, for the ancient Greeks associated him with{" "}
-      <Link href="/place/Asclepeions/" className="text-blue-600 underline">
+      <Link href="/people/Asclepios/info" className="text-blue-600 underline">
         Asclepios
       </Link>{" "}
       the god of healing.
@@ -563,6 +572,20 @@ export const people: Person[] = [
         Humourism
       </Link>
       . He believed that imbalance of the humours caused disease, and was likely the first physician to believe diseases were natural and not by supernatural forces. He believed in diets and exercise to help build up the body’s strength, which would provide a person inherent resistance against disease. He also understood the importance of good hygiene and rest.
+
+      His work influenced many that came after him such as{" "}
+      <Link href="/people/Cladius_Galen/info" className="text-blue-600 underline">
+        Galen
+      </Link>
+      ,{" "}
+      <Link href="/people/Al-Razi/info" className="text-blue-600 underline">
+        Al-Razi
+      </Link>
+      , and{" "}
+      <Link href="/people/Ibn_Sina/info" className="text-blue-600 underline">
+        Ibn Sina
+      </Link>
+      .
     </>
   ),
 
